@@ -144,7 +144,7 @@
 		inoreabbr psvm public static void main () {<cr>}<esc>O
 		inoreabbr sop system.out.print("
 		inoreabbr sopln system.out.println("
-	
+
 	" General 
 		"Saves and reloads a file
 			nnoremap <F7> :w<cr>:e%:p<cr>

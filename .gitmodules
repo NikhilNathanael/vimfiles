@@ -19,3 +19,9 @@
 [submodule "pack/Plugins/start/gundo.vim"]
 	path = pack/Plugins/start/gundo.vim
 	url = https://github.com/sjl/gundo.vim
+[submodule "pack/Plugins/start/vim-indent-object"]
+	path = pack/Plugins/start/vim-indent-object
+	url = https://github.com/michaeljsmith/vim-indent-object
+[submodule "pack/Plugins/start/vim-table-mode"]
+	path = pack/Plugins/start/vim-table-mode
+	url = https://github.com/dhruvasagar/vim-table-mode
