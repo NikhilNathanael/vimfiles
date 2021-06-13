@@ -1,0 +1,3 @@
+[submodule "pack/Chris Toomey/start/-repository"]
+	path = pack/Chris Toomey/start/-repository
+	url = https://github.com/christoomey/vim-sort-motion
