@@ -1,3 +1,9 @@
 [submodule "pack/Chris Toomey/start/-repository"]
 	path = pack/Chris Toomey/start/-repository
 	url = https://github.com/christoomey/vim-sort-motion
+[submodule "pack/Chris Toomey/start/vim-sort-motion"]
+	path = pack/Chris Toomey/start/vim-sort-motion
+	url = https://github.com/christoomey/vim-sort-motion
+[submodule "pack/Chris Toomey/start/vim-system-copy"]
+	path = pack/Chris Toomey/start/vim-system-copy
+	url = https://github.com/christoomey/vim-system-copy
