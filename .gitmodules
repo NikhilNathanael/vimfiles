@@ -7,3 +7,6 @@
 [submodule "pack/Chris Toomey/start/vim-system-copy"]
 	path = pack/Chris Toomey/start/vim-system-copy
 	url = https://github.com/christoomey/vim-system-copy
+[submodule "pack/Chris Toomey/start/vim-titlecase"]
+	path = pack/Chris Toomey/start/vim-titlecase
+	url = https://github.com/christoomey/vim-titlecase
