@@ -10,3 +10,12 @@
 [submodule "pack/Chris Toomey/start/vim-titlecase"]
 	path = pack/Chris Toomey/start/vim-titlecase
 	url = https://github.com/christoomey/vim-titlecase
+[submodule "pack/Plugins/start/ReplaceWithRegister"]
+	path = pack/Plugins/start/ReplaceWithRegister
+	url = https://github.com/vim-scripts/ReplaceWithRegister
+[submodule "pack/Plugins/start/vim-exchange"]
+	path = pack/Plugins/start/vim-exchange
+	url = https://github.com/tommcdo/vim-exchange
+[submodule "pack/Plugins/start/gundo.vim"]
+	path = pack/Plugins/start/gundo.vim
+	url = https://github.com/sjl/gundo.vim
