@@ -1,0 +1,9 @@
+.gitignore.swp
+.vimrc.swp
+.vimrc.swo
+.vimundo/
+vimBackups~/
+compiler/mingw64/
+.netrwhist
+.netrwhist~
+*~
