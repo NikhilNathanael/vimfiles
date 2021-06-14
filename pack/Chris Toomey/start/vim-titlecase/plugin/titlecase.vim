@@ -69,7 +69,13 @@ nnoremap <silent> <Plug>Titlecase :<C-U>set opfunc=<SID>titlecase<CR>g@
 nnoremap <silent> <Plug>TitlecaseLine :<C-U>set opfunc=<SID>titlecase<Bar>exe 'norm! 'v:count1.'g@_'<CR>
 
 if g:titlecase_map_keys
-  nmap gt <Plug>Titlecase
-  vmap gt <Plug>Titlecase
-  nmap gT <Plug>TitlecaseLine
+  nmap gc <Plug>Titlecase
+  vmap gc <Plug>Titlecase
+  nmap gC <Plug>TitlecaseLine
 endif
+
+" if g:titlecase_map_keys
+"   nmap gt <Plug>Titlecase
+"   vmap gt <Plug>Titlecase
+"   nmap gT <Plug>TitlecaseLine
+" endif
