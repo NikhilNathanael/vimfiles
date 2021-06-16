@@ -7,4 +7,5 @@ compiler/mingw64/
 .netrwhist~
 *~
 tags
-pack/*/start/*/
+pack/**/start/**/
+pack/kana/start/vim-textobj-entire
