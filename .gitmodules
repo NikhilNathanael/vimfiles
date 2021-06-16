@@ -1,48 +1,64 @@
 [submodule "pack/Chris Toomey/start/-repository"]
 	path = pack/Chris Toomey/start/-repository
 	url = https://github.com/christoomey/vim-sort-motion
+	ignore = dirty
 [submodule "pack/Chris Toomey/start/vim-sort-motion"]
 	path = pack/Chris Toomey/start/vim-sort-motion
 	url = https://github.com/christoomey/vim-sort-motion
+	ignore = dirty
 [submodule "pack/Chris Toomey/start/vim-system-copy"]
 	path = pack/Chris Toomey/start/vim-system-copy
 	url = https://github.com/christoomey/vim-system-copy
+	ignore = dirty
 [submodule "pack/Plugins/start/ReplaceWithRegister"]
 	path = pack/Plugins/start/ReplaceWithRegister
 	url = https://github.com/vim-scripts/ReplaceWithRegister
+	ignore = dirty
 [submodule "pack/Plugins/start/vim-exchange"]
 	path = pack/Plugins/start/vim-exchange
 	url = https://github.com/tommcdo/vim-exchange
+	ignore = dirty
 [submodule "pack/Plugins/start/gundo.vim"]
 	path = pack/Plugins/start/gundo.vim
 	url = https://github.com/sjl/gundo.vim
+	ignore = dirty
 [submodule "pack/Plugins/start/vim-indent-object"]
 	path = pack/Plugins/start/vim-indent-object
 	url = https://github.com/michaeljsmith/vim-indent-object
+	ignore = dirty
 [submodule "pack/Plugins/start/vim-table-mode"]
 	path = pack/Plugins/start/vim-table-mode
 	url = https://github.com/dhruvasagar/vim-table-mode
+	ignore = dirty
 [submodule "pack/Chris Toomey/start/titlecase"]
 	path = pack/Chris Toomey/start/titlecase
 	url = https://github.com/christoomey/vim-titlecase
+	ignore = dirty
 [submodule "pack/Chris Toomey/start/vim-titlecase-master"]
 	path = pack/Chris Toomey/start/vim-titlecase-master
 	url = https://github.com/christoomey/vim-titlecase
+	ignore = dirty
 [submodule "pack/kana/start/vim-textobj-entire"]
 	path = pack/kana/start/vim-textobj-entire
 	url = https://github.com/kana/vim-textobj-entire
+	ignore = dirty
 [submodule "pack/kana/start/vim-textobj-line"]
 	path = pack/kana/start/vim-textobj-line
 	url = https://github.com/kana/vim-textobj-line
+	ignore = dirty
 [submodule "pack/kana/start/vim-textobj-user"]
 	path = pack/kana/start/vim-textobj-user
 	url = https://github.com/kana/vim-textobj-user
+	ignore = dirty
 [submodule "pack/TPope/start/vim-commentary"]
 	path = pack/TPope/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary
+	ignore = dirty
 [submodule "pack/TPope/start/vim-repeat"]
 	path = pack/TPope/start/vim-repeat
 	url = https://github.com/tpope/vim-repeat
+	ignore = dirty
 [submodule "pack/TPope/start/vim-surround"]
 	path = pack/TPope/start/vim-surround
 	url = https://github.com/tpope/vim-surround
+	ignore = dirty
