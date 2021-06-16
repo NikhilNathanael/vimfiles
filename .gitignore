@@ -1,9 +1,10 @@
-.gitignore.swp
-.vimrc.swp
-.vimrc.swo
+*.swp
+*.swo
 .vimundo/
 vimBackups~/
 compiler/mingw64/
 .netrwhist
 .netrwhist~
 *~
+tags
+pack/*/start/*/
