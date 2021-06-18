@@ -13,6 +13,7 @@
 		nmap cmm <Plug>CommentaryLine
 		nmap cmu <Plug>Commentary<Plug>Commentary
 	endif
+
 " Change vim-titlecase bindings 
 	if g:titlecase_map_keys
 		nunmap gt
