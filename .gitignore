@@ -8,4 +8,3 @@ compiler/mingw64/
 *~
 tags
 pack/**/start/**/
-pack/kana/start/vim-textobj-entire
