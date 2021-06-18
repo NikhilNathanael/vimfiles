@@ -1,7 +1,3 @@
-[submodule "pack/Chris Toomey/start/-repository"]
-	path = pack/Chris Toomey/start/-repository
-	url = https://github.com/christoomey/vim-sort-motion
-	ignore = dirty
 [submodule "pack/Chris Toomey/start/vim-sort-motion"]
 	path = pack/Chris Toomey/start/vim-sort-motion
 	url = https://github.com/christoomey/vim-sort-motion
@@ -29,10 +25,6 @@
 [submodule "pack/Plugins/start/vim-table-mode"]
 	path = pack/Plugins/start/vim-table-mode
 	url = https://github.com/dhruvasagar/vim-table-mode
-	ignore = dirty
-[submodule "pack/Chris Toomey/start/titlecase"]
-	path = pack/Chris Toomey/start/titlecase
-	url = https://github.com/christoomey/vim-titlecase
 	ignore = dirty
 [submodule "pack/kana/start/vim-textobj-entire"]
 	path = pack/kana/start/vim-textobj-entire
