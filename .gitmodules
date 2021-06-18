@@ -6,6 +6,10 @@
 	path = pack/Chris Toomey/start/vim-system-copy
 	url = https://github.com/christoomey/vim-system-copy
 	ignore = dirty
+[submodule "pack/Chris Toomey/start/vim-titlecase"]
+	path = pack/Chris Toomey/start/vim-titlecase
+	url = https://github.com/christoomey/vim-titlecase
+	ignore = dirty
 [submodule "pack/Plugins/start/ReplaceWithRegister"]
 	path = pack/Plugins/start/ReplaceWithRegister
 	url = https://github.com/vim-scripts/ReplaceWithRegister
