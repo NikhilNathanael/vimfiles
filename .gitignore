@@ -4,5 +4,6 @@ compiler/mingw64/
 .netrwhist
 .netrwhist~
 *~
+!vimBackups~/
 tags
 pack/**/start/**/
