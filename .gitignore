@@ -1,7 +1,5 @@
 *.swp
 *.swo
-.vimundo/
-vimBackups~/
 compiler/mingw64/
 .netrwhist
 .netrwhist~
