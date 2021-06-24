@@ -7,3 +7,5 @@ compiler/mingw64/
 !vimBackups~/
 tags
 pack/**/start/**/
+My Packages/
+viminfo
