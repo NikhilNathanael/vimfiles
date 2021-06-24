@@ -907,56 +907,36 @@ $
 "0	CHAR	0
 	Vim\\\ Projects
 |3,0,0,0,1,0,1624425976,"Vim\\\\\\ Projects"
-"1	LINE	0
-				\fill [lightblue] (0cm, 0cm) rectangle (2cm, 2cm) node [black, below] {1}
-|3,0,1,1,1,0,1624429513,"			\\fill [lightblue] (0cm, 0cm) rectangle (2cm, 2cm) node [black, below] {1}"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1624541362,""
 "2	LINE	0
-		
-|3,0,2,1,1,0,1624428865,"	"
+	
+	
+|3,0,2,1,2,0,1624541362,"",""
 "3	LINE	0
-		nothing is ever anyone's fault
-|3,0,3,1,1,0,1624428859,"	nothing is ever anyone's fault"
+	
+|3,0,3,1,1,0,1624541346,""
 "4	LINE	0
+	
+	
+|3,0,4,1,2,0,1624541346,"",""
+"5	LINE	0
+				\fill [lightblue] (0cm, 0cm) rectangle (2cm, 2cm) node [black, below] {1}
+|3,0,5,1,1,0,1624429513,"			\\fill [lightblue] (0cm, 0cm) rectangle (2cm, 2cm) node [black, below] {1}"
+"6	LINE	0
+		
+|3,0,6,1,1,0,1624428865,"	"
+"7	LINE	0
+		nothing is ever anyone's fault
+|3,0,7,1,1,0,1624428859,"	nothing is ever anyone's fault"
+"8	LINE	0
 			set path+=~\vimfiles\ftplugin\**\*
 			set path+=~\vimfiles\pack\**\*
-|3,0,4,1,2,0,1624424580,"		set path+=~\\vimfiles\\ftplugin\\**\\*","		set path+=~\\vimfiles\\pack\\**\\*"
-"5	LINE	0
-	
-|3,0,5,1,1,0,1624423172,""
-"6	LINE	0
-	
-	
-|3,0,6,1,2,0,1624423172,"",""
-"7	LINE	0
-		" Move viminfo file from $HOME to $HOME/vimfiles/vimfiles
-		
-|3,0,7,1,2,0,1624422311,"	\" Move viminfo file from $HOME to $HOME/vimfiles/vimfiles","	"
-"8	LINE	0
-			set path=
-|3,0,8,1,1,0,1624421792,"		set path="
+|3,0,8,1,2,0,1624424580,"		set path+=~\\vimfiles\\ftplugin\\**\\*","		set path+=~\\vimfiles\\pack\\**\\*"
 "9	LINE	0
-		for eachrequirement in requirements {
-			set scorelist[i] to 0.
-			for j in range (0, max(blocks:length, i) {
-				// Check above current block
-				if (not (i - j < 0)) {
-					if blocks[i-j][eachrequirement] {
-						set scorelist[i] to max(scorelist[i], j).
-						break.
-					}
-				}
-				// Check below current block
-				if (not (i + j >= blocks:length)) {
-					if blocks[i+j][eachrequirement] {
-						set scorelist[i] to max(scorelist[i], j).
-						break.
-					}
-				}
-			}
-		}
-		set bestBlock to min(scorelist[bestBlock], scorelist[i]).
-|3,0,9,1,20,0,1624332547,"	for eachrequirement in requirements {","		set scorelist[i] to 0.","		for j in range (0, max(blocks:length, i) {","			// Check above current block","			if (not (i - j < 0)) {","				if blocks[i-j][eachrequirement] {","					set scorelist[i] to max(scorelist[i], j).","					break.","				}","			}","			// Check below current block","			if (not (i + j >= blocks:length)) {","				if blocks[i+j][eachrequirement] {",>48
-|<"					set scorelist[i] to max(scorelist[i], j).","					break.","				}","			}","		}","	}","	set bestBlock to min(scorelist[bestBlock], scorelist[i])."
+	
+|3,0,9,1,1,0,1624423172,""
 "a	LINE	0
 	.vimundo/
 	vimBackups~/
@@ -1015,246 +995,258 @@ $
 "y	CHAR	0
 	(candidate candidates, int numberOfCandidates)
 |3,0,34,0,1,0,1619099766,"(candidate candidates, int numberOfCandidates)"
-""-	CHAR	0
+"-	CHAR	0
 	node [black, below] {2}
-|3,1,36,0,1,0,1624429727,"node [black, below] {2}"
+|3,0,36,0,1,0,1624429727,"node [black, below] {2}"
 
 # File marks:
 'G  93  0  ~\Documents\newfilename
 |4,71,93,0,1613846948,"~\\Documents\\newfilename"
 '0  4  47  ~\vimfiles\ftplugin\qf.vim
-|4,48,4,47,1624540747,"~\\vimfiles\\ftplugin\\qf.vim"
-'1  160  0  ~\vimfiles\vimrc
-|4,49,160,0,1624540711,"~\\vimfiles\\vimrc"
-'2  1  0  ~\vimfiles\viminfo
-|4,50,1,0,1624540699,"~\\vimfiles\\viminfo"
-'3  53  2  ~\vimfiles\syntax\kerboscript.vim
-|4,51,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
-'4  11  6  ~\vimfiles\.gitignore
-|4,52,11,6,1624540441,"~\\vimfiles\\.gitignore"
-'5  11  6  ~\vimfiles\.gitignore
-|4,53,11,6,1624540405,"~\\vimfiles\\.gitignore"
-'6  360  0  C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\helphelp.txt
-|4,54,360,0,1624534903,"C:\\Program Files (x86)\\Vim\\vim82\\vim.exe\\vim82\\vim.exe\\vim82\\doc\\helphelp.txt"
-'7  1  0  ~\OneDrive\Documents\PSG Documents\Class Documents\Semester 2\Engineering Mechanics\Presentation\Pictures\picture-example.tex
-|4,55,1,0,1624503771,"~\\OneDrive\\Documents\\PSG Documents\\Class Documents\\Semester 2\\Engineering Mechanics\\Presentation\\Pictures\\picture-example.tex"
-'8  1  0  ~\OneDrive\Documents\PSG Documents\Class Documents\Semester 2\Engineering Mechanics\Presentation\Pictures\picture-example.tex
-|4,56,1,0,1624503771,"~\\OneDrive\\Documents\\PSG Documents\\Class Documents\\Semester 2\\Engineering Mechanics\\Presentation\\Pictures\\picture-example.tex"
-'9  1  0  ~\OneDrive\Documents\PSG Documents\Class Documents\Semester 2\Engineering Mechanics\Presentation\Pictures\.picture-example.tex.swp
-|4,57,1,0,1624503700,"~\\OneDrive\\Documents\\PSG Documents\\Class Documents\\Semester 2\\Engineering Mechanics\\Presentation\\Pictures\\.picture-example.tex.swp"
+|4,48,4,47,1624541442,"~\\vimfiles\\ftplugin\\qf.vim"
+'1  4  47  ~\vimfiles\ftplugin\qf.vim
+|4,49,4,47,1624541397,"~\\vimfiles\\ftplugin\\qf.vim"
+'2  2  39  ~\vimfiles\ftdetect\qf.vim
+|4,50,2,39,1624541364,"~\\vimfiles\\ftdetect\\qf.vim"
+'3  4  39  ~\vimfiles\ftdetect\qf.vim
+|4,51,4,39,1624541346,"~\\vimfiles\\ftdetect\\qf.vim"
+'4  2  39  ~\vimfiles\ftdetect\qf.vim
+|4,52,2,39,1624541346,"~\\vimfiles\\ftdetect\\qf.vim"
+'5  1  0  ~\vimfiles\ftdetect\qf
+|4,53,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+'6  4  47  ~\vimfiles\ftplugin\qf.vim
+|4,54,4,47,1624540747,"~\\vimfiles\\ftplugin\\qf.vim"
+'7  4  47  ~\vimfiles\ftplugin\qf.vim
+|4,55,4,47,1624540747,"~\\vimfiles\\ftplugin\\qf.vim"
+'8  160  0  ~\vimfiles\vimrc
+|4,56,160,0,1624540711,"~\\vimfiles\\vimrc"
+'9  1  0  ~\vimfiles\viminfo
+|4,57,1,0,1624540699,"~\\vimfiles\\viminfo"
 
 # Jumplist (newest first):
+-'  4  47  ~\vimfiles\ftplugin\qf.vim
+|4,39,4,47,1624541442,"~\\vimfiles\\ftplugin\\qf.vim"
+-'  4  47  ~\vimfiles\ftplugin\qf.vim
+|4,39,4,47,1624541397,"~\\vimfiles\\ftplugin\\qf.vim"
+-'  2  39  ~\vimfiles\ftdetect\qf.vim
+|4,39,2,39,1624541364,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  2  39  ~\vimfiles\ftdetect\qf.vim
+|4,39,2,39,1624541364,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  2  39  ~\vimfiles\ftdetect\qf.vim
+|4,39,2,39,1624541364,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  2  39  ~\vimfiles\ftdetect\qf.vim
+|4,39,2,39,1624541364,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  3  0  ~\vimfiles\ftdetect\qf.vim
+|4,39,3,0,1624541362,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  3  0  ~\vimfiles\ftdetect\qf.vim
+|4,39,3,0,1624541362,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  3  0  ~\vimfiles\ftdetect\qf.vim
+|4,39,3,0,1624541362,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  3  0  ~\vimfiles\ftdetect\qf.vim
+|4,39,3,0,1624541362,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  4  39  ~\vimfiles\ftdetect\qf.vim
+|4,39,4,39,1624541346,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  2  39  ~\vimfiles\ftdetect\qf.vim
+|4,39,2,39,1624541346,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  4  39  ~\vimfiles\ftdetect\qf.vim
+|4,39,4,39,1624541346,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  2  39  ~\vimfiles\ftdetect\qf.vim
+|4,39,2,39,1624541346,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  4  39  ~\vimfiles\ftdetect\qf.vim
+|4,39,4,39,1624541346,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  2  39  ~\vimfiles\ftdetect\qf.vim
+|4,39,2,39,1624541346,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  4  39  ~\vimfiles\ftdetect\qf.vim
+|4,39,4,39,1624541346,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  2  39  ~\vimfiles\ftdetect\qf.vim
+|4,39,2,39,1624541346,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  5  0  ~\vimfiles\ftdetect\qf.vim
+|4,39,5,0,1624541345,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  3  0  ~\vimfiles\ftdetect\qf.vim
+|4,39,3,0,1624541345,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  5  0  ~\vimfiles\ftdetect\qf.vim
+|4,39,5,0,1624541345,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  3  0  ~\vimfiles\ftdetect\qf.vim
+|4,39,3,0,1624541345,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  5  0  ~\vimfiles\ftdetect\qf.vim
+|4,39,5,0,1624541345,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  3  0  ~\vimfiles\ftdetect\qf.vim
+|4,39,3,0,1624541345,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  5  0  ~\vimfiles\ftdetect\qf.vim
+|4,39,5,0,1624541345,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  3  0  ~\vimfiles\ftdetect\qf.vim
+|4,39,3,0,1624541345,"~\\vimfiles\\ftdetect\\qf.vim"
+-'  1  0  ~\vimfiles\ftdetect\qf
+|4,39,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+-'  1  0  ~\vimfiles\ftdetect\qf
+|4,39,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+-'  1  0  ~\vimfiles\ftdetect\qf
+|4,39,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+-'  1  0  ~\vimfiles\ftdetect\qf
+|4,39,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+-'  1  0  ~\vimfiles\ftdetect\qf
+|4,39,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+-'  1  0  ~\vimfiles\ftdetect\qf
+|4,39,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+-'  1  0  ~\vimfiles\ftdetect\qf
+|4,39,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+-'  1  0  ~\vimfiles\ftdetect\qf
+|4,39,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+-'  1  0  ~\vimfiles\ftdetect\qf
+|4,39,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+-'  1  0  ~\vimfiles\ftdetect\qf
+|4,39,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+-'  1  0  ~\vimfiles\ftdetect\qf
+|4,39,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+-'  1  0  ~\vimfiles\ftdetect\qf
+|4,39,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+-'  1  0  ~\vimfiles\ftdetect\qf
+|4,39,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+-'  1  0  ~\vimfiles\ftdetect\qf
+|4,39,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+-'  1  0  ~\vimfiles\ftdetect\qf
+|4,39,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+-'  1  0  ~\vimfiles\ftdetect\qf
+|4,39,1,0,1624541341,"~\\vimfiles\\ftdetect\\qf"
+-'  4  47  ~\vimfiles\ftplugin\qf.vim
+|4,39,4,47,1624540747,"~\\vimfiles\\ftplugin\\qf.vim"
+-'  4  47  ~\vimfiles\ftplugin\qf.vim
+|4,39,4,47,1624540747,"~\\vimfiles\\ftplugin\\qf.vim"
+-'  4  47  ~\vimfiles\ftplugin\qf.vim
+|4,39,4,47,1624540747,"~\\vimfiles\\ftplugin\\qf.vim"
+-'  4  47  ~\vimfiles\ftplugin\qf.vim
+|4,39,4,47,1624540747,"~\\vimfiles\\ftplugin\\qf.vim"
+-'  4  47  ~\vimfiles\ftplugin\qf.vim
+|4,39,4,47,1624540747,"~\\vimfiles\\ftplugin\\qf.vim"
+-'  4  47  ~\vimfiles\ftplugin\qf.vim
+|4,39,4,47,1624540747,"~\\vimfiles\\ftplugin\\qf.vim"
+-'  4  47  ~\vimfiles\ftplugin\qf.vim
+|4,39,4,47,1624540747,"~\\vimfiles\\ftplugin\\qf.vim"
 -'  4  47  ~\vimfiles\ftplugin\qf.vim
 |4,39,4,47,1624540747,"~\\vimfiles\\ftplugin\\qf.vim"
 -'  160  0  ~\vimfiles\vimrc
 |4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
 -'  160  0  ~\vimfiles\vimrc
 |4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
--'  147  0  ~\vimfiles\vimrc
-|4,39,147,0,1624540706,"~\\vimfiles\\vimrc"
--'  134  0  ~\vimfiles\vimrc
-|4,39,134,0,1624540706,"~\\vimfiles\\vimrc"
--'  147  0  ~\vimfiles\vimrc
-|4,39,147,0,1624540706,"~\\vimfiles\\vimrc"
--'  134  0  ~\vimfiles\vimrc
-|4,39,134,0,1624540706,"~\\vimfiles\\vimrc"
--'  133  0  ~\vimfiles\vimrc
-|4,39,133,0,1624540705,"~\\vimfiles\\vimrc"
--'  133  0  ~\vimfiles\vimrc
-|4,39,133,0,1624540705,"~\\vimfiles\\vimrc"
--'  110  0  ~\vimfiles\vimrc
-|4,39,110,0,1624540704,"~\\vimfiles\\vimrc"
--'  96  21  ~\vimfiles\vimrc
-|4,39,96,21,1624540704,"~\\vimfiles\\vimrc"
--'  110  0  ~\vimfiles\vimrc
-|4,39,110,0,1624540704,"~\\vimfiles\\vimrc"
--'  96  21  ~\vimfiles\vimrc
-|4,39,96,21,1624540704,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\viminfo
-|4,39,1,0,1624540699,"~\\vimfiles\\viminfo"
--'  1  0  ~\vimfiles\viminfo
-|4,39,1,0,1624540699,"~\\vimfiles\\viminfo"
--'  1  0  ~\vimfiles\viminfo
-|4,39,1,0,1624540699,"~\\vimfiles\\viminfo"
--'  1  0  ~\vimfiles\viminfo
-|4,39,1,0,1624540699,"~\\vimfiles\\viminfo"
--'  53  2  ~\vimfiles\syntax\kerboscript.vim
-|4,39,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
--'  53  2  ~\vimfiles\syntax\kerboscript.vim
-|4,39,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
--'  53  2  ~\vimfiles\syntax\kerboscript.vim
-|4,39,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
--'  53  2  ~\vimfiles\syntax\kerboscript.vim
-|4,39,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
--'  53  2  ~\vimfiles\syntax\kerboscript.vim
-|4,39,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
--'  53  2  ~\vimfiles\syntax\kerboscript.vim
-|4,39,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
--'  53  2  ~\vimfiles\syntax\kerboscript.vim
-|4,39,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
--'  53  2  ~\vimfiles\syntax\kerboscript.vim
-|4,39,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
--'  1  0  ~\vimfiles\syntax\kerboscript.vim
-|4,39,1,0,1624540674,"~\\vimfiles\\syntax\\kerboscript.vim"
--'  1  0  ~\vimfiles\syntax\kerboscript.vim
-|4,39,1,0,1624540674,"~\\vimfiles\\syntax\\kerboscript.vim"
--'  1  0  ~\vimfiles\syntax\kerboscript.vim
-|4,39,1,0,1624540674,"~\\vimfiles\\syntax\\kerboscript.vim"
--'  1  0  ~\vimfiles\syntax\kerboscript.vim
-|4,39,1,0,1624540674,"~\\vimfiles\\syntax\\kerboscript.vim"
--'  1  0  ~\vimfiles\syntax\kerboscript.vim
-|4,39,1,0,1624540674,"~\\vimfiles\\syntax\\kerboscript.vim"
--'  1  0  ~\vimfiles\syntax\kerboscript.vim
-|4,39,1,0,1624540674,"~\\vimfiles\\syntax\\kerboscript.vim"
--'  1  0  ~\vimfiles\syntax\kerboscript.vim
-|4,39,1,0,1624540674,"~\\vimfiles\\syntax\\kerboscript.vim"
--'  1  0  ~\vimfiles\syntax\kerboscript.vim
-|4,39,1,0,1624540674,"~\\vimfiles\\syntax\\kerboscript.vim"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
--'  11  6  ~\vimfiles\.gitignore
-|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  1  0  ~\vimfiles\.gitignore
-|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
--'  360  0  C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\helphelp.txt
-|4,39,360,0,1624534903,"C:\\Program Files (x86)\\Vim\\vim82\\vim.exe\\vim82\\vim.exe\\vim82\\doc\\helphelp.txt"
--'  360  0  C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\helphelp.txt
-|4,39,360,0,1624534903,"C:\\Program Files (x86)\\Vim\\vim82\\vim.exe\\vim82\\vim.exe\\vim82\\doc\\helphelp.txt"
--'  360  0  C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\helphelp.txt
-|4,39,360,0,1624534903,"C:\\Program Files (x86)\\Vim\\vim82\\vim.exe\\vim82\\vim.exe\\vim82\\doc\\helphelp.txt"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
 
 # History of marks within files (newest to oldest):
 
 > ~\vimfiles\ftplugin\qf.vim
-	*	1624540746	0
+	*	1624541441	0
 	"	4	47
 	^	4	48
 	.	4	47
 	+	2	40
 	+	5	27
 	+	4	47
+
+> ~\vimfiles\ftdetect\qf.vim
+	*	1624541362	0
+	"	2	39
+	^	2	40
+	.	2	39
+	+	4	39
+	+	2	39
+
+> ~\vimfiles\ftdetect\qf
+	*	1624541336	0
+	"	1	0
 
 > ~\vimfiles\vimrc
 	*	1624540710	0
