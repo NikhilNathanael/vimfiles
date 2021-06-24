@@ -54,3 +54,7 @@
 	path = pack/TPope/start/vim-surround
 	url = https://github.com/tpope/vim-surround
 	ignore = dirty
+[submodule "pack/My scripts/start/vim-join-operator"]
+	path = pack/My scripts/start/vim-join-operator
+	url = https://github.com/nikhilnathanael/vim-join-operator/
+	ignore = dirty
