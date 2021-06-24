@@ -68,14 +68,14 @@
 		set smartcase ignorecase
 
 		" Undo and Backup files
-			set backup								" Enable backup file
-			set undofile							" Enable persistent undo
+				set backup								" Enable backup file
+				set undofile							" Enable persistent undo
 
 			" Stores backup files at this directory
-			set backupdir=~\vimfiles\vimBackups~\
+				set backupdir=~\vimfiles\vimBackups~\
 
 			" Stores undofiles at this directory
-			set undodir=~\vimfiles\.vimundo\
+				set undodir=~\vimfiles\.vimundo\
 
 		" WildIngore files
 			set wildignore+=*.exe,*.*~
@@ -88,15 +88,18 @@
 		nohlsearch
 
 	" Path variable
-		set path=
 		set path+=
 		set path+=.\
-		set path+=C:\Users\nikhi\vimfiles\*
-		set path+=C:\Users\nikhi\Vim\\\ Projects\**
-		set path+=C:\Program\\\ Files\\\ (x86)\Steam\steamapps\common\Kerbal\\\ Space\\\ Program\Ships\Script\**
+		set path+=~\vimfiles\*
+		set path+=~\vimfiles\ftplugin\**
+		set path+=~\vimfiles\pack\**
+		set path+=~\Projects\\**
+		set path+=~\Vim\\\ Projects\\**
+		set path+=C:\Program\\\ Files\\\ (x86)\Steam\steamapps\common\Kerbal\\\ Space\\\ Program\Ships\Script\\**
+		set wildignore+=~\vimfiles\compiler\**
 	
 	" Move viminfo file from $HOME to $HOME/vimfiles/vimfiles
-	
+		set viminfo+='1000,n~/vimfiles/viminfo
 
 	" Folding
 		set foldmethod=indent

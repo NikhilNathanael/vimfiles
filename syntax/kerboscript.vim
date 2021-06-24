@@ -50,7 +50,6 @@ hi def link	ksFloat		Float
 
 " Functions "{{{1
 syn keyword	ksFunction	add remove stage clearscreen log copy rename delete edit run compile reboot shutdown batch deploy print
-"syn match	ksUDFunction	"\v%(\d\a*)@<!\h\w*\s*(\(|\{|\@)@="
 syn match	ksUDFunction	"\v%(%(\d\a*)|for.+|until.+|if.+)@<!\h\w*\s*(\(|\{|\@)@="
 syn match	ksUDFunction	"\v%(%(local|global)\s+)@<=%(\d\a*)@<!\h\w*\ze\s*%(is|to)\s*\{"
 hi def link	ksFunction	Function

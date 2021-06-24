@@ -11,23 +11,203 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/\(begin\|end\){table}
+~MSle0~/function
 
 # Last Substitute Search Pattern:
-~MSle0~&\$\$
+~MSle0&\~
 
 # Last Substitute String:
-$$
+$
 
 # Command Line History (newest to oldest):
+:list
+|2,0,1624534723,,"list"
+:h textobj-line
+|2,0,1624534715,,"h textobj-line"
+:h text-objects
+|2,0,1624534696,,"h text-objects"
+:copen
+|2,0,1624534648,,"copen"
+:helpgrep \she\s
+|2,0,1624534642,,"helpgrep \\she\\s"
+:helpgrep <he>
+|2,0,1624534632,,"helpgrep <he>"
+:helpgrep he
+|2,0,1624534626,,"helpgrep he"
+:h sort_motion.txt
+|2,0,1624534562,,"h sort_motion.txt"
+:helpgrep titlecase
+|2,0,1624534514,,"helpgrep titlecase"
+:help /ignorecase
+|2,0,1624534510,,"help /ignorecase"
+:helptags ALL
+|2,0,1624534493,,"helptags ALL"
+:h titlecase
+|2,0,1624534488,,"h titlecase"
+:tabe
+|2,0,1624534384,,"tabe"
+:echo expand("%")
+|2,0,1624534265,,"echo expand(\"%\")"
+:set nolist
+|2,0,1624534236,,"set nolist"
+:set list
+|2,0,1624534230,,"set list"
+:lsit
+|2,0,1624534224,,"lsit"
+:h helphelp
+|2,0,1624534176,,"h helphelp"
+:e Pictures\picture-example.tex
+|2,0,1624503769,,"e Pictures\\picture-example.tex"
+:cd Pictures\p
+|2,0,1624503762,,"cd Pictures\\p"
+:cd ~\OneDrive\Documents\PSG\ Documents\Class\ Documents\Semester\ 2\Engineering\ Mechanics\Presentation\
+|2,0,1624503750,,"cd ~\\OneDrive\\Documents\\PSG\\ Documents\\Class\\ Documents\\Semester\\ 2\\Engineering\\ Mechanics\\Presentation\\"
+:h latex
+|2,0,1624429100,,"h latex"
+:h tex.vim
+|2,0,1624429095,,"h tex.vim"
+:h draw
+|2,0,1624429083,,"h draw"
+:e
+|2,0,1624428841,,"e"
+:find tesing.tex
+|2,0,1624425936,,"find tesing.tex"
+:find Tutorial\ -\ Part\ 1.tex
+|2,0,1624425828,,"find Tutorial\\ -\\ Part\\ 1.tex"
+:VimRC
+|2,0,1624425773,,"VimRC"
+:find *.tex
+|2,0,1624425757,,"find *.tex"
+:cd ~
+|2,0,1624425753,,"cd ~"
+:find JoinAsOperator.vim
+|2,0,1624425705,,"find JoinAsOperator.vim"
+:cd %:h
+|2,0,1624425656,,"cd %:h"
+:find askvim.vim
+|2,0,1624425636,,"find askvim.vim"
+:find plugin
+|2,0,1624425626,,"find plugin"
+:find ClinicProgram1.js
+|2,0,1624425604,,"find ClinicProgram1.js"
+:find .\.\node.js\
+|2,0,1624425589,,"find .\\.\\node.js\\"
+:find orv
+|2,0,1624425561,,"find orv"
+:find .\vimfiles\compiler\mingw64\bin\
+|2,0,1624425516,,"find .\\vimfiles\\compiler\\mingw64\\bin\\"
+:find Comma_Operator.CPP
+|2,0,1624425502,,"find Comma_Operator.CPP"
+:find .\.\Contacts\
+|2,0,1624425499,,"find .\\.\\Contacts\\"
+:find kerboscript.vim
+|2,0,1624425474,,"find kerboscript.vim"
+:find *pl*rem.vim
+|2,0,1624425470,,"find *pl*rem.vim"
+:find .\.\after\plugin\Plugin\ Remaps.vimkk
+|2,0,1624425447,,"find .\\.\\after\\plugin\\Plugin\\ Remaps.vimkk"
+:find .\.\after\plugin\
+|2,0,1624425381,,"find .\\.\\after\\plugin\\"
+:find .\.\plugin\
+|2,0,1624425364,,"find .\\.\\plugin\\"
+:cd vimfiles\
+|2,0,1624425353,,"cd vimfiles\\"
+:find calculator.c
+|2,0,1624425350,,"find calculator.c"
+:make
+|2,0,1624425302,,"make"
+:find calculator
+|2,0,1624425150,,"find calculator"
+:cd..
+|2,0,1624425149,,"cd.."
+:f
+|2,0,1624425037,,"f"
+:find vimrc
+|2,0,1624424876,,"find vimrc"
+:find *remap
+|2,0,1624424851,,"find *remap"
+:find Precrement_Example.CPP
+|2,0,1624424847,,"find Precrement_Example.CPP"
+:find .\vimfiles\pack\My\ scripts\start\join-as-operator\plugin\
+|2,0,1624424842,,"find .\\vimfiles\\pack\\My\\ scripts\\start\\join-as-operator\\plugin\\"
+:find 
+|2,0,1624424810,,"find "
+:find .\vimfiles\ftplugin\c.vim
+|2,0,1624424739,,"find .\\vimfiles\\ftplugin\\c.vim"
+:find .\.\3D\ Objects\
+|2,0,1624424590,,"find .\\.\\3D\\ Objects\\"
+:find qf.vim
+|2,0,1624424555,,"find qf.vim"
+:find titlecase.vim
+|2,0,1624424498,,"find titlecase.vim"
+:find *remap*
+|2,0,1624424393,,"find *remap*"
+:h wildignore
+|2,0,1624424286,,"h wildignore"
+:find .\vimfiles\after\
+|2,0,1624424282,,"find .\\vimfiles\\after\\"
+:find Plugins\`
+|2,0,1624424207,,"find Plugins\\`"
+:find qf
+|2,0,1624424145,,"find qf"
+:find findLocalMinima.ks
+|2,0,1624424041,,"find findLocalMinima.ks"
+:set path?
+|2,0,1624424018,,"set path?"
+:set path+=\vimfiles\ftplugin\**\*
+|2,0,1624424005,,"set path+=\\vimfiles\\ftplugin\\**\\*"
+:find autoload\ReplaceWithRegister.vim
+|2,0,1624423916,,"find autoload\\ReplaceWithRegister.vim"
+:e vimfiles\pack\**\*
+|2,0,1624423829,,"e vimfiles\\pack\\**\\*"
+:e vimfiles\pack\Chris\ Toomey\start\vim
+|2,0,1624423802,,"e vimfiles\\pack\\Chris\\ Toomey\\start\\vim"
+:e vimfiles\pack\**\join*.vim
+|2,0,1624423775,,"e vimfiles\\pack\\**\\join*.vim"
+:e pack\
+|2,0,1624423755,,"e pack\\"
+:e package-lock.json
+|2,0,1624423752,,"e package-lock.json"
+:e vimfiles\pack\My\ scripts\start\join-as-operator\plugin\JoinAsOperator.vim
+|2,0,1624423747,,"e vimfiles\\pack\\My\\ scripts\\start\\join-as-operator\\plugin\\JoinAsOperator.vim"
+:helpgrep something
+|2,0,1624423261,,"helpgrep something"
+:e vimfiles\ftplugin\qf.vim
+|2,0,1624423169,,"e vimfiles\\ftplugin\\qf.vim"
+:nmap <buffer> <cr> <cr>
+|2,0,1624423136,,"nmap <buffer> <cr> <cr>"
+:set filetype?
+|2,0,1624423111,,"set filetype?"
+:echo filetype?
+|2,0,1624423104,,"echo filetype?"
+:helpgrep find
+|2,0,1624423040,,"helpgrep find"
+:h :find
+|2,0,1624423020,,"h :find"
+:set runtimepath
+|2,0,1624422855,,"set runtimepath"
+:echo $PATHEXT
+|2,0,1624422846,,"echo $PATHEXT"
+:echo $USERDOMAIN_ROAMINGPROFILE
+|2,0,1624422833,,"echo $USERDOMAIN_ROAMINGPROFILE"
+:find kerbos
+|2,0,1624422769,,"find kerbos"
+:set viminfo+='1000,n~/vimfiles/viminfo
+|2,0,1624422668,,"set viminfo+='1000,n~/vimfiles/viminfo"
+:set viminfo=\~\vimfiles\viminfo
+|2,0,1624422561,,"set viminfo=\\~\\vimfiles\\viminfo"
+:set viminfo=~\vimfiles\viminfo
+|2,0,1624422550,,"set viminfo=~\\vimfiles\\viminfo"
+:set viminfo=$HOME\vimfiles\viminfo
+|2,0,1624422533,,"set viminfo=$HOME\\vimfiles\\viminfo"
+:h viminfo
+|2,0,1624422447,,"h viminfo"
 :set viminfo+=n~/vimfiles/viminfo
 |2,0,1623606894,,"set viminfo+=n~/vimfiles/viminfo"
 :set viminfo?
 |2,0,1623606871,,"set viminfo?"
 :set vimfile?
 |2,0,1623606856,,"set vimfile?"
-:VimRC
-|2,0,1623606799,,"VimRC"
 :e ~\Videos\TV\ Shows\ and\ Movies\My\ Movie\ List.txt
 |2,0,1623517123,,"e ~\\Videos\\TV\\ Shows\\ and\\ Movies\\My\\ Movie\\ List.txt"
 :e ~?vitvmy
@@ -38,8 +218,6 @@ $$
 |2,0,1623078532,,"registers"
 :%s/\$\$/$/g
 |2,0,1623078277,,"%s/\\$\\$/$/g"
-:e
-|2,0,1623004699,,"e"
 :e Tables Test.tex
 |2,0,1623004616,,"e Tables Test.tex"
 :cd Tables\ Tutorial\
@@ -48,8 +226,6 @@ $$
 |2,0,1623004598,,"!mkdir 'Tables Tutorial'"
 :cd ..
 |2,0,1623004583,,"cd .."
-:tabe
-|2,0,1623002661,,"tabe"
 :%s/equation\*/align*/g
 |2,0,1623002591,,"%s/equation\\*/align*/g"
 :%s/equation/&*/g
@@ -58,8 +234,6 @@ $$
 |2,0,1623002390,,"nunmap <space>"
 :nmap <space> <A-	>
 |2,0,1623002380,,"nmap <space> <A-	>"
-:h latex
-|2,0,1623001807,,"h latex"
 :h latex-math
 |2,0,1623001783,,"h latex-math"
 :h \int
@@ -76,8 +250,6 @@ $$
 |2,0,1623000820,,"h section"
 :cr 8
 |2,0,1623000405,,"cr 8"
-:copen
-|2,0,1623000394,,"copen"
 :helpgrep author
 |2,0,1623000386,,"helpgrep author"
 :h author
@@ -104,8 +276,6 @@ $$
 |2,0,1622999703,,"!& '.\\%:r.pdf'"
 :!& '%:r.pdf'
 |2,0,1622999676,,"!& '%:r.pdf'"
-:echo expand("%")
-|2,0,1622999643,,"echo expand(\"%\")"
 :echo %
 |2,0,1622999632,,"echo %"
 :!'Tutorial - Part 1.pdf'
@@ -184,8 +354,6 @@ $$
 |2,0,1622905372,,"vimgrep multiple"
 :help latex-counters
 |2,0,1622905347,,"help latex-counters"
-:helptags ALL
-|2,0,1622905340,,"helptags ALL"
 :vimgrep include %
 |2,0,1622905289,,"vimgrep include %"
 :vimgrep include
@@ -216,8 +384,6 @@ $$
 |2,0,1622904375,,"vim"
 :set rtp?
 |2,0,1622904296,,"set rtp?"
-:set path?
-|2,0,1622904283,,"set path?"
 :echo path
 |2,0,1622904271,,"echo path"
 :helpgrep latex
@@ -254,174 +420,16 @@ $$
 |2,0,1622903702,,"help sort-motion"
 :h sort
 |2,0,1622903693,,"h sort"
-:h sort motionÎ
-|2,0,1622903690,,"h sort motionÎ"
-:h gundo
-|2,0,1622903658,,"h gundo"
-:pdftex newtÎ
-|2,0,1622903081,,"pdftex newtÎ"
-:e newtex.tex
-|2,0,1622902865,,"e newtex.tex"
-:syntax Î
-|2,0,1622902814,,"syntax Î"
-:h dedupl
-|2,0,1622715886,,"h dedupl"
-:m/\/\/
-|2,0,1622709600,,"m/\\/\\/"
-:e ~.vitvÎ
-|2,0,1622709527,,"e ~.vitvÎ"
-:m/\/\/ Wat
-|2,0,1622643158,,"m/\\/\\/ Wat"
-:h :t
-|2,0,1622643136,,"h :t"
-:w Group 6 Automatic Transcript.txt
-|2,0,1622631448,,"w Group 6 Automatic Transcript.txt"
-:!ls
-|2,0,1622631417,,"!ls"
-:ls
-|2,0,1622631413,,"ls"
-:w Grou
-|2,0,1622631411,,"w Grou"
-:cd OneDrive\Documents\PSG\ Documents\Class\ Documents\Semester\ 2\Communication\ Skills\ for\ Enginners\Group\ Discussion\ Transcripts\
-|2,0,1622631407,,"cd OneDrive\\Documents\\PSG\\ Documents\\Class\\ Documents\\Semester\\ 2\\Communication\\ Skills\\ for\\ Enginners\\Group\\ Discussion\\ Transcripts\\"
-:w OneDrive\
-|2,0,1622631387,,"w OneDrive\\"
-:0,.d
-|2,0,1622631365,,"0,.d"
-:.,$d
-|2,0,1622631244,,".,$d"
-:w Group 5 Automatic Transcript.txt
-|2,0,1622480919,,"w Group 5 Automatic Transcript.txt"
-:cd ~\OneDrive\Documents\PSG\ Documents\Class\ Documents\Semester\ 2\Communication\ Skills\ for\ Enginners\Group\ Discussion\ Transcripts\
-|2,0,1622480882,,"cd ~\\OneDrive\\Documents\\PSG\\ Documents\\Class\\ Documents\\Semester\\ 2\\Communication\\ Skills\\ for\\ Enginners\\Group\\ Discussion\\ Transcripts\\"
-:E ~?vitvmy
-|2,0,1622226421,,"E ~?vitvmy"
-:E AppData\Î
-|2,0,1622196332,,"E AppData\\Î"
-:e README.md
-|2,0,1622106984,,"e README.md"
-:e requirements.txt
-|2,0,1622106981,,"e requirements.txt"
-:cd %:h
-|2,0,1622027991,,"cd %:h"
-:w ~\OneDrive\Documents\PSG\ Documents\Class\ Documents\Semester\ 2\Communication\ Skills\ for\ Enginners\Groupt\ Discussion\ Transcripts\Group 3 and 4 Automatic Transcription.txt
-|2,0,1622027984,,"w ~\\OneDrive\\Documents\\PSG\\ Documents\\Class\\ Documents\\Semester\\ 2\\Communication\\ Skills\\ for\\ Enginners\\Groupt\\ Discussion\\ Transcripts\\Group 3 and 4 Automatic Transcription.txt"
-:e ~\OneDrive\Documents\PSG\ Documents\Class\ Documents\Semester\ 2\Communication\ Skills\ for\ Enginners\Technical\ Writing\ Definitions.txt
-|2,0,1621846223,,"e ~\\OneDrive\\Documents\\PSG\\ Documents\\Class\\ Documents\\Semester\\ 2\\Communication\\ Skills\\ for\\ Enginners\\Technical\\ Writing\\ Definitions.txt"
-:e ~\Videos\oneÎ
-|2,0,1621846201,,"e ~\\Videos\\oneÎ"
-:e ~\Videos\TV\ Shows\ and\ Movies\my
-|2,0,1621772579,,"e ~\\Videos\\TV\\ Shows\\ and\\ Movies\\my"
-:e ~./vitvmy
-|2,0,1621768853,,"e ~./vitvmy"
-:e ~./vitvmyÎ
-|2,0,1621587369,,"e ~./vitvmyÎ"
-:e Videos\TV\ Shows\ and\ Movies\My\ Movie\ List.txt
-|2,0,1621500002,,"e Videos\\TV\\ Shows\\ and\\ Movies\\My\\ Movie\\ List.txt"
-:w OneDrive\Documents\PSG\ Documents\Class\ Documents\Semester\ 2\Communication\ Skills\ for\ Enginners\Technical Writing Definitions.txt
-|2,0,1621270821,,"w OneDrive\\Documents\\PSG\\ Documents\\Class\\ Documents\\Semester\\ 2\\Communication\\ Skills\\ for\\ Enginners\\Technical Writing Definitions.txt"
-:q!
-|2,0,1620475881,,"q!"
-:call g:__textobj_entire.do_by_function("select-a","-","o")
-|2,0,1620447552,,"call g:__textobj_entire.do_by_function(\"select-a\",\"-\",\"o\")"
-:undo 30
-|2,0,1620447298,,"undo 30"
-:undo 25
-|2,0,1620447289,,"undo 25"
-:undoli
-|2,0,1620447286,,"undoli"
-:undo 0
-|2,0,1620447281,,"undo 0"
-:undolist
-|2,0,1620447276,,"undolist"
-:%s/\*\*\d\d:\d\d 
-|2,0,1620382984,,"%s/\\*\\*\\d\\d:\\d\\d "
-:+
-|2,0,1620382563,,"+"
-:tabe Group\ Discussion\ Topics.txt
-|2,0,1620320601,,"tabe Group\\ Discussion\\ Topics.txt"
-:e Group\ Discussion\ Topics.txt
-|2,0,1620320598,,"e Group\\ Discussion\\ Topics.txt"
-:tabe ~\OneDrive\Documents\
-|2,0,1620320593,,"tabe ~\\OneDrive\\Documents\\"
-:h g
-|2,0,1620309178,,"h g"
-:h n_g
-|2,0,1620309172,,"h n_g"
-:g n_g:
-|2,0,1620309167,,"g n_g:"
-:h g=
-|2,0,1620309160,,"h g="
-:h format
-|2,0,1620309146,,"h format"
-:cal <SNR>57_HandleTextObjectMapping(1, 0, 0, [line("."), line("."), col("."), col(".")])
-|2,0,1620308046,,"cal <SNR>57_HandleTextObjectMapping(1, 0, 0, [line(\".\"), line(\".\"), col(\".\"), col(\".\")])"
-:e Groupt\ Discussion\ Transcripts\Group 1.txt
-|2,0,1620283100,,"e Groupt\\ Discussion\\ Transcripts\\Group 1.txt"
-:e ~\OneDrive\Documents\PSG\ Documents\Class\ Documents\Semester\ 2\Communication\ Skills\ for\ Enginners\Group\ Discussion\ Topics.txt
-|2,0,1620283045,,"e ~\\OneDrive\\Documents\\PSG\\ Documents\\Class\\ Documents\\Semester\\ 2\\Communication\\ Skills\\ for\\ Enginners\\Group\\ Discussion\\ Topics.txt"
-:e ~?one doÎ
-|2,0,1620210796,,"e ~?one doÎ"
-:tabe ~\OneDrive\Documents\PSG\ Documents\Class\ Documents\Semester\ 2\Communication\ Skills\ for\ Enginners\Group\ Discussion\ Topics.txt
-|2,0,1620020053,,"tabe ~\\OneDrive\\Documents\\PSG\\ Documents\\Class\\ Documents\\Semester\\ 2\\Communication\\ Skills\\ for\\ Enginners\\Group\\ Discussion\\ Topics.txt"
-:e ~\Vim\ Projects\
-|2,0,1620019080,,"e ~\\Vim\\ Projects\\"
-:m0
-|2,0,1619762384,,"m0"
-:helpgrep exchange
-|2,0,1619753448,,"helpgrep exchange"
-:h exchange
-|2,0,1619753442,,"h exchange"
-:h gm
-|2,0,1619753371,,"h gm"
-:g//norm nd$
-|2,0,1619613525,,"g//norm nd$"
-:g//norm tGd$
-|2,0,1619613510,,"g//norm tGd$"
-:g//norm t-d$
-|2,0,1619613479,,"g//norm t-d$"
-:g//t-d$
-|2,0,1619613454,,"g//t-d$"
-:m^
-|2,0,1619613228,,"m^"
-:e 
-|2,0,1619612687,,"e "
-:tabe %
-|2,0,1619612684,,"tabe %"
-:e new.txt
-|2,0,1619611261,,"e new.txt"
-:vs new.txt
-|2,0,1619611251,,"vs new.txt"
-:vs new.vim
-|2,0,1619611220,,"vs new.vim"
-:VimR
-|2,0,1619611181,,"VimR"
-:VIMR
-|2,0,1619611179,,"VIMR"
-:E NEW.txt
-|2,0,1619611158,,"E NEW.txt"
-:e OneDrive\Documents\PSG\ Documents\Class\ Documents\Semester\ 2\Communication\ Skills\ for\ Enginners\Group Discussion Topics.txt
-|2,0,1619611135,,"e OneDrive\\Documents\\PSG\\ Documents\\Class\\ Documents\\Semester\\ 2\\Communication\\ Skills\\ for\\ Enginners\\Group Discussion Topics.txt"
-:h gw
-|2,0,1619107277,,"h gw"
-:set colorcolumn=0
-|2,0,1619106911,,"set colorcolumn=0"
-:set colorcolumn=78
-|2,0,1619106907,,"set colorcolumn=78"
-:set colorcolumn=80
-|2,0,1619106065,,"set colorcolumn=80"
-:set nolist
-|2,0,1619106051,,"set nolist"
-:set list
-|2,0,1619106044,,"set list"
-:list
-|2,0,1619106042,,"list"
-:setlocal foldmethod=indent
-|2,0,1619105706,,"setlocal foldmethod=indent"
-:h folding
-|2,0,1619105645,,"h folding"
 
 # Search String History (newest to oldest):
+?/function
+|2,1,1624540674,47,"function"
+?/draw
+|2,1,1624429105,47,"draw"
+? @$
+|2,1,1624424590,,"@$"
+? ^$
+|2,1,1624424590,,"^$"
 ? \$\$
 |2,1,1623078277,,"\\$\\$"
 ?/\(begin\|end\){table}
@@ -600,8 +608,6 @@ $$
 |2,1,1618235914,47,"findlocal"
 ?/\Cfunction
 |2,1,1618235884,47,"\\Cfunction"
-?/function
-|2,1,1618235878,47,"function"
 ? \Cfunction
 |2,1,1618235863,,"\\Cfunction"
 ?/localmi
@@ -684,10 +690,6 @@ $$
 |2,1,1618122287,,"%d"
 ?/\vfor\s*\(%(int|float|char)?\s*(\h\w*)\s*\=\s*%(\h\w*|%(\+|\-)?\d+)\;\s*\1\s*%(%(\<|\>|)\=?|%(\!\=|\=\=))\s*%(\h\w*|%(\+|\-)?\d+)\;\s*\1%(\+\+|\-\-|%(\+|\-)\=\s*%(%(\+|\-)?%(\d+|%(\h\w*))))\)
 |2,1,1618122071,47,"\\vfor\\s*\\(%(int|float|char)?\\s*(\\h\\w*)\\s*\\=\\s*%(\\h\\w*|%(\\+|\\-)?\\d+)\\;\\s*\\1\\s*%(%(\\<|\\>|)\\=?|%(\\!\\=|\\=\\=))\\s*%(\\h\\w*|%(\\+|\\-)?\\d+)\\;\\s*\\1%(\\+\\+|\\-\\-|%(\\+|\\-)\\=\\s*%(%(\\+|\\-)?%(\\d+|%(\\h\\w*))))\\)"
-? @$
-|2,1,1618121913,,"@$"
-? ^$
-|2,1,1618121913,,"^$"
 ?/compil
 |2,1,1617971702,47,"compil"
 ?/compile
@@ -820,8 +822,6 @@ $$
 |2,1,1616756209,,"\\'"
 ? ==
 |2,1,1616754654,,"=="
-? l:\a*
-|2,1,1616753921,,"l:\\a*"
 
 # Expression History (newest to oldest):
 =y
@@ -904,43 +904,64 @@ $$
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-			\caption{Autogenerated table from .csv file}
-|3,0,0,1,1,0,1623078261,"		\\caption{Autogenerated table from .csv file}"
-""1	LINE	0
-			*I'm Thinking of Ending Things
-|3,1,1,1,1,0,1623246714,"		*I'm Thinking of Ending Things"
+"0	CHAR	0
+	Vim\\\ Projects
+|3,0,0,0,1,0,1624425976,"Vim\\\\\\ Projects"
+"1	LINE	0
+				\fill [lightblue] (0cm, 0cm) rectangle (2cm, 2cm) node [black, below] {1}
+|3,0,1,1,1,0,1624429513,"			\\fill [lightblue] (0cm, 0cm) rectangle (2cm, 2cm) node [black, below] {1}"
 "2	LINE	0
-			$$$$
-|3,0,2,1,1,0,1623079037,"		$$$$"
+		
+|3,0,2,1,1,0,1624428865,"	"
 "3	LINE	0
-			\caption{Autogenerated table from .csv file}
-|3,0,3,1,1,0,1623078160,"		\\caption{Autogenerated table from .csv file}"
+		nothing is ever anyone's fault
+|3,0,3,1,1,0,1624428859,"	nothing is ever anyone's fault"
 "4	LINE	0
-		\begin{table}[h!]
-			\begin{center}
-				\caption{Autogenerated table from .csv file}
-				\label{csvTable1}
-				\pgfplotstabletypeset[
-|3,0,4,1,5,0,1623077956,"	\\begin{table}[h!]","		\\begin{center}","			\\caption{Autogenerated table from .csv file}","			\\label{csvTable1}","			\\pgfplotstabletypeset["
+			set path+=~\vimfiles\ftplugin\**\*
+			set path+=~\vimfiles\pack\**\*
+|3,0,4,1,2,0,1624424580,"		set path+=~\\vimfiles\\ftplugin\\**\\*","		set path+=~\\vimfiles\\pack\\**\\*"
 "5	LINE	0
-	\usepackage{pgsplotstable}
-|3,0,5,1,1,0,1623076883,"\\usepackage{pgsplotstable}"
+	
+|3,0,5,1,1,0,1624423172,""
 "6	LINE	0
-			\end{right}
-|3,0,6,1,1,0,1623006146,"		\\end{right}"
+	
+	
+|3,0,6,1,2,0,1624423172,"",""
 "7	LINE	0
-			\begin{right}
-|3,0,7,1,1,0,1623006145,"		\\begin{right}"
+		" Move viminfo file from $HOME to $HOME/vimfiles/vimfiles
+		
+|3,0,7,1,2,0,1624422311,"	\" Move viminfo file from $HOME to $HOME/vimfiles/vimfiles","	"
 "8	LINE	0
-			\{
-|3,0,8,1,1,0,1623003206,"		\\{"
+			set path=
+|3,0,8,1,1,0,1624421792,"		set path="
 "9	LINE	0
-			\right\}
-|3,0,9,1,1,0,1623003177,"		\\right\\}"
-"a	CHAR	0
-	^f>wy$
-|3,0,10,0,1,0,1617626455,"^f>wy$"
+		for eachrequirement in requirements {
+			set scorelist[i] to 0.
+			for j in range (0, max(blocks:length, i) {
+				// Check above current block
+				if (not (i - j < 0)) {
+					if blocks[i-j][eachrequirement] {
+						set scorelist[i] to max(scorelist[i], j).
+						break.
+					}
+				}
+				// Check below current block
+				if (not (i + j >= blocks:length)) {
+					if blocks[i+j][eachrequirement] {
+						set scorelist[i] to max(scorelist[i], j).
+						break.
+					}
+				}
+			}
+		}
+		set bestBlock to min(scorelist[bestBlock], scorelist[i]).
+|3,0,9,1,20,0,1624332547,"	for eachrequirement in requirements {","		set scorelist[i] to 0.","		for j in range (0, max(blocks:length, i) {","			// Check above current block","			if (not (i - j < 0)) {","				if blocks[i-j][eachrequirement] {","					set scorelist[i] to max(scorelist[i], j).","					break.","				}","			}","			// Check below current block","			if (not (i + j >= blocks:length)) {","				if blocks[i+j][eachrequirement] {",>48
+|<"					set scorelist[i] to max(scorelist[i], j).","					break.","				}","			}","		}","	}","	set bestBlock to min(scorelist[bestBlock], scorelist[i])."
+"a	LINE	0
+	.vimundo/
+	vimBackups~/
+	compiler/mingw64/
+|3,0,10,1,3,0,1623610274,".vimundo/","vimBackups~/","compiler/mingw64/"
 "d	LINE	0
 		nnoremap <buffer> <f8> :w<cr>:call GlobalCompileFunction()<cr>
 		nnoremap <buffer> <f9> :call GlobalExecuteFunction()<cr>
@@ -956,9 +977,14 @@ $$
 "g	CHAR	0
 	-QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
 |3,0,16,0,1,0,1613632063,"-QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu"
-"i	CHAR	0
-	getAndParseInput
-|3,0,18,0,1,0,1615467652,"getAndParseInput"
+"i	LINE	0
+		Parameter Body1, Body2.
+		Parameter Time1, Time2.
+		Assert(Body1:Orbit:Body == Body2:Orbit:Body, "Both Bodies Must Orbit the Same Parent Body").
+		
+		Local Distance Is Positionat(Body1, Time1) - Positionat(Body2, Time2).
+		Return Distance.
+|3,0,18,1,6,0,1623917026,"	Parameter Body1, Body2.","	Parameter Time1, Time2.","	Assert(Body1:Orbit:Body == Body2:Orbit:Body, \"Both Bodies Must Orbit the Same Parent Body\").","	","	Local Distance Is Positionat(Body1, Time1) - Positionat(Body2, Time2).","	Return Distance."
 "k	CHAR	0
 	l
 |3,0,20,0,1,0,1613565993,"l"
@@ -989,237 +1015,437 @@ $$
 "y	CHAR	0
 	(candidate candidates, int numberOfCandidates)
 |3,0,34,0,1,0,1619099766,"(candidate candidates, int numberOfCandidates)"
-"-	CHAR	0
-	$
-|3,0,36,0,1,0,1623079360,"$"
+""-	CHAR	0
+	node [black, below] {2}
+|3,1,36,0,1,0,1624429727,"node [black, below] {2}"
 
 # File marks:
 'G  93  0  ~\Documents\newfilename
 |4,71,93,0,1613846948,"~\\Documents\\newfilename"
-'0  16  2  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,48,16,2,1623517453,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
-'1  38  2  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,49,38,2,1623328736,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
-'2  38  2  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,50,38,2,1623328736,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
-'3  1  0  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir\WinGet-2021-06-10-15-25-56.923.log
-|4,51,1,0,1623319002,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\DiagOutputDir\\WinGet-2021-06-10-15-25-56.923.log"
-'4  2  27  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,52,2,27,1623318948,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
-'5  1  0  https://aka.ms/winget-settings
-|4,53,1,0,1623318936,"https://aka.ms/winget-settings"
-'6  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,54,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
-'7  14  0  ~\Projects\Latex\newtexfile.tex
-|4,55,14,0,1622985484,"~\\Projects\\Latex\\newtexfile.tex"
-'8  8  32  ~\newtex.tex
-|4,56,8,32,1622904377,"~\\newtex.tex"
-'9  8  32  ~\newtex.tex
-|4,57,8,32,1622904377,"~\\newtex.tex"
+'0  4  47  ~\vimfiles\ftplugin\qf.vim
+|4,48,4,47,1624540747,"~\\vimfiles\\ftplugin\\qf.vim"
+'1  160  0  ~\vimfiles\vimrc
+|4,49,160,0,1624540711,"~\\vimfiles\\vimrc"
+'2  1  0  ~\vimfiles\viminfo
+|4,50,1,0,1624540699,"~\\vimfiles\\viminfo"
+'3  53  2  ~\vimfiles\syntax\kerboscript.vim
+|4,51,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
+'4  11  6  ~\vimfiles\.gitignore
+|4,52,11,6,1624540441,"~\\vimfiles\\.gitignore"
+'5  11  6  ~\vimfiles\.gitignore
+|4,53,11,6,1624540405,"~\\vimfiles\\.gitignore"
+'6  360  0  C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\helphelp.txt
+|4,54,360,0,1624534903,"C:\\Program Files (x86)\\Vim\\vim82\\vim.exe\\vim82\\vim.exe\\vim82\\doc\\helphelp.txt"
+'7  1  0  ~\OneDrive\Documents\PSG Documents\Class Documents\Semester 2\Engineering Mechanics\Presentation\Pictures\picture-example.tex
+|4,55,1,0,1624503771,"~\\OneDrive\\Documents\\PSG Documents\\Class Documents\\Semester 2\\Engineering Mechanics\\Presentation\\Pictures\\picture-example.tex"
+'8  1  0  ~\OneDrive\Documents\PSG Documents\Class Documents\Semester 2\Engineering Mechanics\Presentation\Pictures\picture-example.tex
+|4,56,1,0,1624503771,"~\\OneDrive\\Documents\\PSG Documents\\Class Documents\\Semester 2\\Engineering Mechanics\\Presentation\\Pictures\\picture-example.tex"
+'9  1  0  ~\OneDrive\Documents\PSG Documents\Class Documents\Semester 2\Engineering Mechanics\Presentation\Pictures\.picture-example.tex.swp
+|4,57,1,0,1624503700,"~\\OneDrive\\Documents\\PSG Documents\\Class Documents\\Semester 2\\Engineering Mechanics\\Presentation\\Pictures\\.picture-example.tex.swp"
 
 # Jumplist (newest first):
--'  16  2  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,39,16,2,1623517453,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
--'  5  0  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,39,5,0,1623517445,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
--'  19  0  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,39,19,0,1623517444,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
--'  48  0  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,39,48,0,1623517443,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
--'  23  0  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,39,23,0,1623517441,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
--'  22  0  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,39,22,0,1623517440,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
--'  2  0  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,39,2,0,1623517439,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
--'  1  0  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,39,1,0,1623517439,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
--'  82  2  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,39,82,2,1623517437,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
--'  25  2  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,39,25,2,1623517133,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
--'  38  2  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,39,38,2,1623328736,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
--'  38  2  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,39,38,2,1623328736,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
--'  1  0  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir\WinGet-2021-06-10-15-25-56.923.log
-|4,39,1,0,1623319002,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\DiagOutputDir\\WinGet-2021-06-10-15-25-56.923.log"
--'  1  0  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir\WinGet-2021-06-10-15-25-56.923.log
-|4,39,1,0,1623319002,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\DiagOutputDir\\WinGet-2021-06-10-15-25-56.923.log"
--'  68  2  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir\NERD_tree_1
-|4,39,68,2,1623318994,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\DiagOutputDir\\NERD_tree_1"
--'  68  2  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir\NERD_tree_1
-|4,39,68,2,1623318994,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\DiagOutputDir\\NERD_tree_1"
--'  6  0  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir\NERD_tree_1
-|4,39,6,0,1623318984,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\DiagOutputDir\\NERD_tree_1"
--'  6  0  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir\NERD_tree_1
-|4,39,6,0,1623318984,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\DiagOutputDir\\NERD_tree_1"
--'  1  0  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir\NERD_tree_1
-|4,39,1,0,1623318972,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\DiagOutputDir\\NERD_tree_1"
--'  69  2  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir\NERD_tree_1
-|4,39,69,2,1623318972,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\DiagOutputDir\\NERD_tree_1"
--'  1  0  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir\NERD_tree_1
-|4,39,1,0,1623318972,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\DiagOutputDir\\NERD_tree_1"
--'  69  2  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir\NERD_tree_1
-|4,39,69,2,1623318972,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\DiagOutputDir\\NERD_tree_1"
--'  2  27  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,2,27,1623318948,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  2  27  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,2,27,1623318948,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  2  27  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,2,27,1623318948,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  2  27  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,2,27,1623318948,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  4  49  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,4,49,1623318938,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  4  49  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,4,49,1623318938,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  4  49  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,4,49,1623318938,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  4  49  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,4,49,1623318938,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  1  0  https://aka.ms/winget-settings
-|4,39,1,0,1623318936,"https://aka.ms/winget-settings"
--'  1  0  https://aka.ms/winget-settings
-|4,39,1,0,1623318936,"https://aka.ms/winget-settings"
--'  1  0  https://aka.ms/winget-settings
-|4,39,1,0,1623318936,"https://aka.ms/winget-settings"
--'  1  0  https://aka.ms/winget-settings
-|4,39,1,0,1623318936,"https://aka.ms/winget-settings"
--'  1  0  https://aka.ms/winget-settings
-|4,39,1,0,1623318936,"https://aka.ms/winget-settings"
--'  1  0  https://aka.ms/winget-settings
-|4,39,1,0,1623318936,"https://aka.ms/winget-settings"
--'  1  0  https://aka.ms/winget-settings
-|4,39,1,0,1623318936,"https://aka.ms/winget-settings"
--'  1  0  https://aka.ms/winget-settings
-|4,39,1,0,1623318936,"https://aka.ms/winget-settings"
--'  4  49  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,4,49,1623318914,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  4  49  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,4,49,1623318914,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  4  49  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,4,49,1623318914,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  4  49  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,4,49,1623318914,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  1  0  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,1,0,1623318904,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  1  0  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,1,0,1623318904,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  1  0  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,1,0,1623318904,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  1  0  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,1,0,1623318904,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  1  0  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,1,0,1623318904,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  1  0  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,1,0,1623318904,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  1  0  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,1,0,1623318904,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  1  0  ~\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,1,0,1623318904,"~\\AppData\\Local\\Packages\\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  27  2  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,39,27,2,1623246715,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
--'  27  2  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,39,27,2,1623246715,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
--'  22  5  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,39,22,5,1623246710,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
--'  1  0  ~\Videos\TV Shows and Movies\My Movie List.txt
-|4,39,1,0,1623246698,"~\\Videos\\TV Shows and Movies\\My Movie List.txt"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  62  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,62,0,1623229610,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  53  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,53,0,1623174742,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  56  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,56,0,1623174741,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  56  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,56,0,1623174741,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  56  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,56,0,1623174741,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  56  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,56,0,1623174741,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  56  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,56,0,1623174741,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  56  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,56,0,1623174741,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
--'  56  0  ~\Projects\Latex\Tables Tutorial\Tables Test.tex
-|4,39,56,0,1623174741,"~\\Projects\\Latex\\Tables Tutorial\\Tables Test.tex"
+-'  4  47  ~\vimfiles\ftplugin\qf.vim
+|4,39,4,47,1624540747,"~\\vimfiles\\ftplugin\\qf.vim"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  160  0  ~\vimfiles\vimrc
+|4,39,160,0,1624540711,"~\\vimfiles\\vimrc"
+-'  147  0  ~\vimfiles\vimrc
+|4,39,147,0,1624540706,"~\\vimfiles\\vimrc"
+-'  134  0  ~\vimfiles\vimrc
+|4,39,134,0,1624540706,"~\\vimfiles\\vimrc"
+-'  147  0  ~\vimfiles\vimrc
+|4,39,147,0,1624540706,"~\\vimfiles\\vimrc"
+-'  134  0  ~\vimfiles\vimrc
+|4,39,134,0,1624540706,"~\\vimfiles\\vimrc"
+-'  133  0  ~\vimfiles\vimrc
+|4,39,133,0,1624540705,"~\\vimfiles\\vimrc"
+-'  133  0  ~\vimfiles\vimrc
+|4,39,133,0,1624540705,"~\\vimfiles\\vimrc"
+-'  110  0  ~\vimfiles\vimrc
+|4,39,110,0,1624540704,"~\\vimfiles\\vimrc"
+-'  96  21  ~\vimfiles\vimrc
+|4,39,96,21,1624540704,"~\\vimfiles\\vimrc"
+-'  110  0  ~\vimfiles\vimrc
+|4,39,110,0,1624540704,"~\\vimfiles\\vimrc"
+-'  96  21  ~\vimfiles\vimrc
+|4,39,96,21,1624540704,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\viminfo
+|4,39,1,0,1624540699,"~\\vimfiles\\viminfo"
+-'  1  0  ~\vimfiles\viminfo
+|4,39,1,0,1624540699,"~\\vimfiles\\viminfo"
+-'  1  0  ~\vimfiles\viminfo
+|4,39,1,0,1624540699,"~\\vimfiles\\viminfo"
+-'  1  0  ~\vimfiles\viminfo
+|4,39,1,0,1624540699,"~\\vimfiles\\viminfo"
+-'  53  2  ~\vimfiles\syntax\kerboscript.vim
+|4,39,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
+-'  53  2  ~\vimfiles\syntax\kerboscript.vim
+|4,39,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
+-'  53  2  ~\vimfiles\syntax\kerboscript.vim
+|4,39,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
+-'  53  2  ~\vimfiles\syntax\kerboscript.vim
+|4,39,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
+-'  53  2  ~\vimfiles\syntax\kerboscript.vim
+|4,39,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
+-'  53  2  ~\vimfiles\syntax\kerboscript.vim
+|4,39,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
+-'  53  2  ~\vimfiles\syntax\kerboscript.vim
+|4,39,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
+-'  53  2  ~\vimfiles\syntax\kerboscript.vim
+|4,39,53,2,1624540690,"~\\vimfiles\\syntax\\kerboscript.vim"
+-'  1  0  ~\vimfiles\syntax\kerboscript.vim
+|4,39,1,0,1624540674,"~\\vimfiles\\syntax\\kerboscript.vim"
+-'  1  0  ~\vimfiles\syntax\kerboscript.vim
+|4,39,1,0,1624540674,"~\\vimfiles\\syntax\\kerboscript.vim"
+-'  1  0  ~\vimfiles\syntax\kerboscript.vim
+|4,39,1,0,1624540674,"~\\vimfiles\\syntax\\kerboscript.vim"
+-'  1  0  ~\vimfiles\syntax\kerboscript.vim
+|4,39,1,0,1624540674,"~\\vimfiles\\syntax\\kerboscript.vim"
+-'  1  0  ~\vimfiles\syntax\kerboscript.vim
+|4,39,1,0,1624540674,"~\\vimfiles\\syntax\\kerboscript.vim"
+-'  1  0  ~\vimfiles\syntax\kerboscript.vim
+|4,39,1,0,1624540674,"~\\vimfiles\\syntax\\kerboscript.vim"
+-'  1  0  ~\vimfiles\syntax\kerboscript.vim
+|4,39,1,0,1624540674,"~\\vimfiles\\syntax\\kerboscript.vim"
+-'  1  0  ~\vimfiles\syntax\kerboscript.vim
+|4,39,1,0,1624540674,"~\\vimfiles\\syntax\\kerboscript.vim"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540441,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
+-'  11  6  ~\vimfiles\.gitignore
+|4,39,11,6,1624540405,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  1  0  ~\vimfiles\.gitignore
+|4,39,1,0,1624540334,"~\\vimfiles\\.gitignore"
+-'  360  0  C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\helphelp.txt
+|4,39,360,0,1624534903,"C:\\Program Files (x86)\\Vim\\vim82\\vim.exe\\vim82\\vim.exe\\vim82\\doc\\helphelp.txt"
+-'  360  0  C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\helphelp.txt
+|4,39,360,0,1624534903,"C:\\Program Files (x86)\\Vim\\vim82\\vim.exe\\vim82\\vim.exe\\vim82\\doc\\helphelp.txt"
+-'  360  0  C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\helphelp.txt
+|4,39,360,0,1624534903,"C:\\Program Files (x86)\\Vim\\vim82\\vim.exe\\vim82\\vim.exe\\vim82\\doc\\helphelp.txt"
 
 # History of marks within files (newest to oldest):
 
+> ~\vimfiles\ftplugin\qf.vim
+	*	1624540746	0
+	"	4	47
+	^	4	48
+	.	4	47
+	+	2	40
+	+	5	27
+	+	4	47
+
 > ~\vimfiles\vimrc
-	*	1623606896	0
-	"	97	0
-	^	98	58
-	.	98	57
+	*	1624540710	0
+	"	160	0
+	^	96	22
+	.	96	21
+	+	151	0
+	+	151	12
+	+	151	1
+	+	151	0
+	+	150	0
+	+	99	54
+	+	93	37
+	+	46	0
+	+	91	0
+	+	93	12
 	+	97	0
-	+	100	0
-	+	98	57
+	+	99	44
+	+	93	23
+	+	98	104
+	+	97	30
+	+	99	20
+	+	93	0
+	+	99	21
+	+	97	15
+	+	93	21
+	+	92	0
+	+	93	28
+	+	91	0
+	+	98	0
+	+	97	50
+	+	93	44
+	+	97	51
+	+	97	0
+	+	102	2
+	+	97	12
+	+	93	12
+	+	97	12
+	+	99	18
+	+	97	22
+	+	93	25
+	+	99	41
+	+	97	29
+	+	97	27
+	+	97	0
+	+	97	12
+	+	93	12
+	+	99	18
+	+	98	0
+	+	97	15
+	+	93	14
+	+	97	0
+	+	94	0
+	+	95	30
+	+	94	34
+	+	93	25
+	+	99	40
+	+	97	33
+	+	93	24
+	+	96	0
+	+	96	21
+
+> ~\vimfiles\viminfo
+	*	1624540697	0
+	"	1	0
+
+> ~\vimfiles\syntax\kerboscript.vim
+	*	1624540679	0
+	"	53	2
+
+> ~\vimfiles\.gitignore
+	*	1624540438	0
+	"	11	6
+	^	11	7
+	.	11	6
+	+	10	11
+	+	11	6
+
+> C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\helphelp.txt
+	*	1624534902	0
+	"	360	0
+
+> ~\vimfiles\pack\kana\start\vim-textobj-line\doc\textobj-line.txt
+	*	1624534897	0
+	"	90	3
+
+> C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\motion.txt
+	*	1624534703	0
+	"	519	64
+
+> C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\pi_zip.txt
+	*	1624534679	0
+	"	138	49
+
+> C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\if_pyth.txt
+	*	1624534672	0
+	"	1	0
+
+> C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\editing.txt
+	*	1624534654	0
+	"	249	3
+
+> C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\digraph.txt
+	*	1624534643	0
+	"	1	0
+
+> ~\vimfiles\doc\gundo.txt
+	*	1624534632	0
+	"	12	27
+
+> ~\vimfiles\pack\Chris Toomey\start\vim-sort-motion\doc\sort_motion.txt
+	*	1624534569	0
+	"	19	0
+
+> ~\OneDrive\Documents\PSG Documents\Class Documents\Semester 2\Engineering Mechanics\Presentation\Pictures\picture-example.tex
+	*	1624503769	0
+	"	1	0
+
+> ~\OneDrive\Documents\PSG Documents\Class Documents\Semester 2\Engineering Mechanics\Presentation\Pictures\.picture-example.tex.swp
+	*	1624503698	0
+	"	1	0
+
+> ~\OneDrive\Documents\PSG Documents\Class Documents\Semester 2\Engineering Mechanics\Presentation\Picture1.tex
+	*	1624429758	0
+	"	9	64
+	^	9	65
+	.	9	65
+	+	12	13
+	+	7	0
+	+	5	0
+	+	7	1
+	+	3	16
+	+	10	0
+	+	8	45
+	+	7	18
+	+	10	16
+	+	7	20
+	+	6	18
+	+	7	0
+	+	11	12
+	+	8	0
+	+	9	65
+
+> ~\vimfiles\pack\LatexHelp\start\latex-help\doc\latexhelp.txt
+	*	1624429182	0
+	"	803	0
+
+> C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\syntax.txt
+	*	1624429097	0
+	"	3195	25
+
+> C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\various.txt
+	*	1624429084	0
+	"	19	15
+
+> ~\Projects\Latex\Youtube Tutorial\tesing.tex
+	*	1624425980	0
+	"	14	14
+	.	15	0
+	+	15	0
+	+	14	0
+	+	15	0
+
+> ~\Projects\Latex\Latex Tutorial\Tutorial - Part 1.tex
+	*	1624425834	0
+	"	26	0
+
+> ~\vimfiles\pack\My scripts\start\join-as-operator\plugin\JoinAsOperator.vim
+	*	1624425819	0
+	"	1	0
+
+> ~\vimfiles\pack\Plugins\start\gundo.vim\tests\bundled\lh-vim-lib\autoload\lh\askvim.vim
+	*	1624425656	0
+	"	57	0
+
+> ~\vimfiles\ftplugin\kerboscript.vim
+	*	1624425541	0
+	"	1	0
+
+> ~\vimfiles\ftplugin\c.vim
+	*	1624424771	0
+	"	1	0
+
+> C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\options.txt
+	*	1624424312	0
+	"	8783	5
+
+> ~\vimfiles\pack\Plugins\start\vim-indent-object\doc\indent-object.txt
+	*	1624423272	0
+	"	61	9
+
+> C:\Program Files (x86)\Vim\vim82\vim.exe\vim82\vim.exe\vim82\doc\starting.txt
+	*	1624422668	0
+	"	1687	1
