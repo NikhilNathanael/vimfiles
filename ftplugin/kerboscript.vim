@@ -1,17 +1,17 @@
 " Make Sure to rename the functions with the appropriate names
 " Remaps and Abbreviations
 	" Map the required chortcuts
-	inoremap <buffer> { {}<esc>O
-	inoremap <buffer> ( ().<esc>O
-	inoremap <buffer> [ [].<esc>O
-	inoreabb <buffer> func function
-	inoreabb <buffer> para parameter
-	inoreabb <buffer> obt orbit
-	inoreabb <buffer> peri periapsis
-	inoreabb <buffer> apo apoapsis
+		inoremap <buffer> { {}<esc>O
+		inoremap <buffer> ( ().<esc>O
+		inoremap <buffer> [ [].<esc>O
+		inoreabb <buffer> func function
+		inoreabb <buffer> para parameter
+		inoreabb <buffer> obt orbit
+		inoreabb <buffer> peri periapsis
+		inoreabb <buffer> apo apoapsis
 	
 	" Replaces functions with function variables
-	cnoreabb <buffer> repFuncWithVar <esc>viB:g/function/norm wciwlocal<esc>$iis <esc>$%a.<esc>:noh<cr>
+		cnoreabb <buffer> repFuncWithVar <esc>viB:g/function/norm wciwlocal<esc>$iis <esc>$%a.<esc>:noh<cr>
 
 
 " Takes local functions and puts them in a global lexicon that exposes them as delegates

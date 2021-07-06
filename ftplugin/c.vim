@@ -1,7 +1,7 @@
 " Remaps and Abbreviations
 	" Map the required hotkeys
-	inoremap <buffer> #in<C-n> #include <.h><esc>F<a
-	inoremap <buffer> {<cr> {<cr>}<esc>O
+		inoremap <buffer> #in<C-n> #include <.h><esc>F<a
+		inoremap <buffer> {<cr> {<cr>}<esc>O
 
 	" Snippets
 		" For loop
