@@ -90,7 +90,7 @@
 	" Path variable
 		set path+=
 		set path+=.\
-		set path+=~\vimfiles\*
+		set path+=~\vimfiles\**
 		set path+=~\vimfiles\ftplugin\**
 		set path+=~\vimfiles\pack\**
 		set path+=~\Projects\\**
@@ -160,6 +160,9 @@
 
 		" Press Enter to Save
 			nnoremap <cr> :w<cr>
+
+		" Vertical split using find
+			cnoreabbr vsf vertical sfind
 
 
 " Skeleton file creation
