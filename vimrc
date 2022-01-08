@@ -86,6 +86,9 @@
 		set incsearch
 		set hlsearch						" Enables highlighting of previously searched terms
 		nohlsearch
+	
+	"Autocomplete
+		set complete=.,w,b,u,t
 
 	" Path variable
 		set path+=
@@ -96,6 +99,8 @@
 		set path+=~\Projects\\**
 		set path+=~\Vim\\\ Projects\\**
 		set path+=C:\Program\\\ Files\\\ (x86)\Steam\steamapps\common\Kerbal\\\ Space\\\ Program\Ships\Script\\**
+		set path+=~\OneDrive\Documents\PSG\\\ Documents\Class\\\ Documents\**
+		set path+=~\OneDrive\Documents\Personal\\\ Documents\**
 		set wildignore+=~\vimfiles\compiler\**
 	
 	" Move viminfo file from $HOME to $HOME/vimfiles/vimfiles

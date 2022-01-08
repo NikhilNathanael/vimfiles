@@ -37,7 +37,7 @@
 	" Compile hotkey is F8
 	nnoremap <buffer> <F8> :w <bar> !g++ -Wall '%:p' -o '%:p:r'<cr>
 	" Execute hotkey is F9
-	nnoremap <buffer> <F9> :w <bar> !g++ -Wall '%:p' -o '%:p:r'<cr> :!& '%:p:r.exe'<cr>
+	nnoremap <buffer> <F9> :!& '%:p:r.exe'<cr>
 
 
 " Comment String for comment plugin
