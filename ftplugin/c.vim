@@ -5,7 +5,25 @@
 
 	" Snippets
 		" For loop
-			inoreabb <buffer> for for (int <++> = 0; <++> < n; <++>++) {}O<++>:-1s/ <++>//g<left><left>
+			function! s:ForLoopSnippet ()
+				let snippet = ""
+
+				call inputsave()
+				let iterator = input("Iterator : ", "")
+				if iterator == "" | let iterator = "i" | endif
+				call inputrestore()
+
+				call inputsave()
+				let iterand = input("Iterand : ", "") 
+				if iterand == "" | let iterand = "<++>" | endif
+				call inputrestore()
+
+				return "for (int ".iterator." = 0; ".iterator." < ".iterand."; ".iterator."++) {}O"
+			endfunction
+
+			inoreabbr <buffer> <expr> for <SID>ForLoopSnippet()
+
+			" inoreabb <buffer> for for (int <++> = 0; <++> < n; <++>++) {}O<++>:-1s/ <++>//g<left><left>
 				
 		" Printf
 			inoreabb <buffer> printf printf ("<++>);<esc>F"i

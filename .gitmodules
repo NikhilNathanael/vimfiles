@@ -58,3 +58,6 @@
 	path = pack/My scripts/start/vim-join-operator
 	url = https://github.com/nikhilnathanael/vim-join-operator/
 	ignore = dirty
+[submodule "pack/Plugins/start/vim-textobj-quotes"]
+	path = pack/Plugins/start/vim-textobj-quotes
+	url = https://github.com/beloglazov/vim-textobj-quotes
