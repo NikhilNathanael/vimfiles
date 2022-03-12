@@ -165,6 +165,13 @@
 
 		" Press Enter to Save
 			nnoremap <cr> :w<cr>
+			
+			" Remap <cr> to <cr> in command window
+				augroup cmdwin
+					augroup!
+					autocmd CmdwinEnter * nnoremap <buffer> <cr> <cr> 
+				augroup END
+			
 
 		" Vertical split using find
 			cnoreabbr vsf vertical sfind
