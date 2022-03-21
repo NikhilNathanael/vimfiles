@@ -61,3 +61,9 @@
 [submodule "pack/Plugins/start/vim-textobj-quotes"]
 	path = pack/Plugins/start/vim-textobj-quotes
 	url = https://github.com/beloglazov/vim-textobj-quotes
+[submodule "pack/Plugins/start/nerdtree"]
+	path = pack/Plugins/start/nerdtree
+	url = https://github.com/preservim/nerdtree
+[submodule "pack/Plugins/start/ultisnips"]
+	path = pack/Plugins/start/ultisnips
+	url = https://github.com/SirVer/ultisnips
