@@ -67,3 +67,6 @@
 [submodule "pack/Plugins/start/ultisnips"]
 	path = pack/Plugins/start/ultisnips
 	url = https://github.com/SirVer/ultisnips
+[submodule "pack/Plugins/start/vim-mindustry-logic"]
+	path = pack/Plugins/start/vim-mindustry-logic
+	url = https://github.com/purofle/vim-mindustry-logic
