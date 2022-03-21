@@ -1,7 +1,7 @@
 " From $VIMRUNTIME
     " Allow highlighting in the middle of a search
         " Vim with all enhancements
-        source $VIMRUNTIME/vimrc_example.vim
+        " source $VIMRUNTIME/vimrc_example.vim
         
         " Use the internal diff if available.
         " Otherwise use the special 'diffexpr' for Windows.
@@ -40,6 +40,8 @@
                     let &shellxquote=l:shxq_sav
                 endif
             endfunction
+	" Defaults
+		source $VIMRUNTIME/defaults.vim 
 
 
 " Preferences
@@ -55,6 +57,12 @@
 		  set nocompatible
 		endif
 	
+		augroup vimrcEx
+		  au!
+		  " For all text files set 'textwidth' to 78 characters.
+		  autocmd FileType text setlocal textwidth=78
+		augroup END
+
 		syntax on						" Enables syntax highlighting
 		set number						" Enables line numbering for current line
 		set relativenumber				" Enables relative line numbering for all other lines
@@ -101,7 +109,7 @@
 		set path+=C:\Program\\\ Files\\\ (x86)\Steam\steamapps\common\Kerbal\\\ Space\\\ Program\Ships\Script\\**
 		set path+=~\OneDrive\Documents\PSG\\\ Documents\Class\\\ Documents\**
 		set path+=~\OneDrive\Documents\Personal\\\ Documents\**
-		set wildignore+=~\vimfiles\compiler\**
+		set wildignore+=~\\vimfiles\\compiler\\mingw64**
 	
 	" Move viminfo file from $HOME to $HOME/vimfiles/vimfiles
 		set viminfo+='1000,n~/vimfiles/viminfo
@@ -141,6 +149,10 @@
 			nnoremap <c-k> <c-w>k
 			nnoremap <c-j> <c-w>j
 			nnoremap <c-h> <c-w>h
+
+		" Window Resizing
+			nnoremap <c-.> <c-w>>
+			nnoremap <c-,> <c-w><
 		
 		" Moving Lines with Alt + Movement keys
 			nnoremap <a-k> :m .-2<cr>

@@ -15,8 +15,11 @@
 
 				call inputsave()
 				let iterand = input("Iterand : ", "") 
-				if iterand == "" | let iterand = "<++>" | endif
+				if iterand == "" | call inputrestore() | return "for" | endif
 				call inputrestore()
+
+				" Eats next space or <cr> character
+				let eat = getchar(0)
 
 				return "for (int ".iterator." = 0; ".iterator." < ".iterand."; ".iterator."++) {}O"
 			endfunction
