@@ -15,11 +15,6 @@
 	endif
 
 " Change vim-titlecase bindings 
-	if g:titlecase_map_keys
-		nunmap gt
-		vunmap gt
-		nunmap gT
-		nmap gc <Plug>Titlecase
-		vmap gc <Plug>Titlecase
-		nmap gC <Plug>TitlecaseLine
-	endif
+	nmap gc <Plug>Titlecase
+	vmap gc <Plug>Titlecase
+	nmap gC <Plug>TitlecaseLine

@@ -14,7 +14,7 @@ endif
 
 let colors_name = "darkblue"
 
-hi Normal		guifg=#c0c0c0 guibg=#000040						ctermfg=gray ctermbg=black
+hi Normal		guifg=#c0c0c0 guibg=Black						ctermfg=gray ctermbg=black
 hi ErrorMsg		guifg=#ffffff guibg=#287eff						ctermfg=white ctermbg=lightblue
 hi Visual		guifg=#8080ff guibg=fg		gui=reverse				ctermfg=lightblue ctermbg=fg cterm=reverse
 hi VisualNOS	guifg=#8080ff guibg=fg		gui=reverse,underline	ctermfg=lightblue ctermbg=fg cterm=reverse,underline
@@ -36,8 +36,8 @@ hi StatusLine	guifg=blue guibg=darkgray gui=none		ctermfg=blue ctermbg=gray term
 hi StatusLineNC	guifg=black guibg=darkgray gui=none		ctermfg=black ctermbg=gray term=none cterm=none
 hi VertSplit	guifg=black guibg=darkgray gui=none		ctermfg=black ctermbg=gray term=none cterm=none
 
-hi Folded	guifg=#808080 guibg=#000040			ctermfg=darkgrey ctermbg=black cterm=bold term=bold
-hi FoldColumn	guifg=#808080 guibg=#000040			ctermfg=darkgrey ctermbg=black cterm=bold term=bold
+hi Folded	guifg=#808080 guibg=Black			ctermfg=darkgrey ctermbg=black cterm=bold term=bold
+hi FoldColumn	guifg=#808080 guibg=Black			ctermfg=darkgrey ctermbg=black cterm=bold term=bold
 hi LineNr	guifg=#90f020			ctermfg=green cterm=none
 
 hi DiffAdd	guibg=darkblue	ctermbg=darkblue term=none cterm=none

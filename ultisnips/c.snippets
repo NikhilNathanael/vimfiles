@@ -1,0 +1,19 @@
+priority 0
+
+snippet while "While loop" Ab
+while (${1:condition}) {
+	$0
+}
+endsnippet
+
+snippet scanf "Scanf" A
+scanf("%$1",&$2);$0
+endsnippet
+
+snippet do "do...While" Ab
+do {
+	$0
+	$1${4:++};
+}while(${1:var} ${2:<} ${3:value});
+endsnippet
+

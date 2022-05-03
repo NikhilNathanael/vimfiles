@@ -4,35 +4,35 @@
 		inoremap <buffer> {<cr> {<cr>}<esc>O
 
 	" Snippets
-		" For loop
-			function! s:ForLoopSnippet ()
-				let snippet = ""
+		" For loop 
+			" function! s:ForLoopSnippet () 
+			" 	let snippet = "" 
 
-				call inputsave()
-				let iterator = input("Iterator : ", "")
-				if iterator == "" | let iterator = "i" | endif
-				call inputrestore()
+			" 	call inputsave() 
+			" 	let iterator = input("Iterator : ", "") 
+			" 	if iterator == "" | let iterator = "i" | endif 
+			" 	call inputrestore() 
 
-				call inputsave()
-				let iterand = input("Iterand : ", "") 
-				if iterand == "" | call inputrestore() | return "for" | endif
-				call inputrestore()
+			" 	call inputsave() 
+			" 	let iterand = input("Iterand : ", "") 
+			" 	if iterand == "" | call inputrestore() | return "for" | endif 
+			" 	call inputrestore() 
 
-				" Eats next space or <cr> character
-				let eat = getchar(0)
+			" 	" Eats next space or <cr> character 
+			" 	let eat = getchar(0) 
 
-				return "for (int ".iterator." = 0; ".iterator." < ".iterand."; ".iterator."++) {}O"
-			endfunction
+			" 	return "for (int ".iterator." = 0; ".iterator." < ".iterand."; ".iterator."++) {}O" 
+			" endfunction 
 
-			inoreabbr <buffer> <expr> for <SID>ForLoopSnippet()
+			" inoreabbr <buffer> <expr> for <SID>ForLoopSnippet() 
 
-			" inoreabb <buffer> for for (int <++> = 0; <++> < n; <++>++) {}O<++>:-1s/ <++>//g<left><left>
-				
-		" Printf
-			inoreabb <buffer> printf printf ("<++>);<esc>F"i
+			" " inoreabb <buffer> for for (int <++> = 0; <++> < n; <++>++) {}O<++>:-1s/ <++>//g<left><left> 
+		
+		" Printf 
+			inoreabb <buffer> printf printf ("<++>);<esc>F"i 
 	
-		" Scanf
-			inoreabb <buffer> scanf scanf (", &<++>);<esc>F"i
+		" Scanf 
+			inoreabb <buffer> scanf scanf (", &<++>);<esc>F"i 
 
 	" Searches
 		" Used to look for for loops

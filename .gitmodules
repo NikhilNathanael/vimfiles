@@ -70,3 +70,9 @@
 [submodule "pack/TPope/start/vim-markdown"]
 	path = pack/TPope/start/vim-markdown
 	url = https://github.com/tpope/vim-markdown
+[submodule "pack/Plugins/start/ultisnips"]
+	path = pack/Plugins/start/ultisnips
+	url = https://github.com/SirVer/ultisnips
+[submodule "pack/Plugins/start/vim-snippets"]
+	path = pack/Plugins/start/vim-snippets
+	url = https://github.com/honza/vim-snippets
