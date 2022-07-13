@@ -75,6 +75,8 @@
 		set belloff=all							" Disable error sounds
 		set autowrite
 		set smartcase ignorecase
+		set scrolloff=5
+		set display=truncate
 
 		" Undo and Backup files
 				set backup								" Enable backup file
