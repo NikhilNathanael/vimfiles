@@ -49,6 +49,7 @@
 		set tabstop=4
 		set shiftwidth=4
 		filetype plugin indent on
+		set autoindent
 			
 	" General
 		" Use Vim settings, rather than Vi settings (much better!).

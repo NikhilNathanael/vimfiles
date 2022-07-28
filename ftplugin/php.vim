@@ -56,7 +56,7 @@
 
 " Compile and Execute Shortcuts
 	" Compile hotkey is F8
-		nnoremap <buffer> <F8> :w <bar> !g++ -Wall '%:p' -o '%:p:r'<cr>
+		nnoremap <buffer> <F8> :w <bar> !php '%'<cr>
 	" Execute hotkey is F9
 		nnoremap <buffer> <F9> :!& '%:p:r.exe'<cr>
 
