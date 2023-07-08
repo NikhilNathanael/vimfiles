@@ -76,3 +76,9 @@
 [submodule "pack/Plugins/start/vim-snippets"]
 	path = pack/Plugins/start/vim-snippets
 	url = https://github.com/honza/vim-snippets
+[submodule "pack/Plugins/start/haskell-syntax"]
+	path = pack/Plugins/start/haskell-syntax
+	url = https://github.com/neovimhaskell/haskell-vim
+[submodule "pack/Plugins/start/vimwiki"]
+	path = pack/Plugins/start/vimwiki
+	url = https://github.com/vimwiki/vimwiki
