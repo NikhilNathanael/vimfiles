@@ -9,17 +9,17 @@
 	" Searches
 
 	" Two consecutive spaces in insert mode moves cursor to next tag
-		inoremap <buffer> .. <esc>/<++><cr>ca>
+		" inoremap <buffer> .. <esc>/<++><cr>ca>
 
 " Settings
-    setlocal tabstop=8
-    setlocal softtabstop=4
+    setlocal tabstop=4
+	setlocal expandtab
 
 " Compile and Execute Shortcuts
 	" Compile hotkey is F8
-		" nnoremap <buffer> <F8> :w <bar> !g++ -Wall '%:p' -o '%:p:r'<cr>
+		nnoremap <buffer> <F8> :w <bar> !ghc '%'<cr>
 	" Execute hotkey is F9
-		" nnoremap <buffer> <F9> :!& '%:p:r.exe'<cr>
+		nnoremap <buffer> <F9> :!& '%:p:r.exe'<cr>
 
 " Comment String for comment plugin
 	setlocal commentstring=--%s
