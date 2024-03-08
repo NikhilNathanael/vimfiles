@@ -72,6 +72,7 @@
 		set smartcase ignorecase
 		set scrolloff=5
 		set display=truncate
+		set shellslash							" Uses forward slash (/) instead of backslash (\) in file paths
 
 		" Undo and Backup files
 				set backup								" Enable backup file
@@ -105,8 +106,8 @@
 		set path+=~\Projects\\**
 		set path+=~\Vim\\\ Projects\\**
 		set path+=C:\Program\\\ Files\\\ (x86)\Steam\steamapps\common\Kerbal\\\ Space\\\ Program\Ships\Script\\**
-		set path+=~\OneDrive\Documents\PSG\\\ Documents\Class\\\ Documents\**
-		set path+=~\OneDrive\Documents\Personal\\\ Documents\**
+		set path+=~\Documents\PSG\\\ Documents\Class\\\ Documents\**
+		set path+=~\Documents\Personal\\\ Documents\**
 		set wildignore+=~\\vimfiles\\compiler\\mingw64**
 	
 	" Move viminfo file from $HOME to $HOME/vimfiles/vimfiles

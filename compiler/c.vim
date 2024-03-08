@@ -8,7 +8,7 @@
 "  ^
 " C:\Users\nikhi\Vim Projects\Class Files\averagetestscores.c:32:1: error: expected declaration or statement at end of input
 
-let current_compiler = 'c'
-CompilerSet makeprg=gcc\ '%'\ -Wall\ -o\ '%:r.exe'
+" let current_compiler = 'c'
+CompilerSet makeprg=mingw32-make.exe
 " CompilerSet errorformat=%f:%l:%c:\ error:\ %m
 " set errorformat^=%*[^:]:\ %f:%l:%*[^:]:%m " match libc assert
