@@ -10,6 +10,8 @@ endif
 	" Map the required hotkeys
 		" Open curly braces 
 			inoremap <buffer> {<cr> {<cr>}<esc>O
+			inoremap <buffer> (<cr> (<cr>)<esc>O
+			inoremap <buffer> [<cr> [<cr>]<esc>O
 
 
 
@@ -34,14 +36,12 @@ endif
 
 " Compile and Execute Shortcuts
 	" Compile hotkey is F8
-		nnoremap <buffer> <F8> :w <bar> !cargo build <cr>
+		nnoremap <buffer> <F8> :w <bar> !cargo check <cr>
 	" Execute hotkey is F9
 		nnoremap <buffer> <F9> :!cargo run <cr>
 
 
 " Set Compiler
-	compiler c
-
 
 " Comment String for comment plugin
 	setlocal commentstring=//%s
