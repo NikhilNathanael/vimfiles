@@ -82,6 +82,3 @@
 [submodule "pack/Plugins/start/vimwiki"]
 	path = pack/Plugins/start/vimwiki
 	url = https://github.com/vimwiki/vimwiki
-[submodule "pack/Plugins/start/vim-glsl"]
-	path = pack/Plugins/start/vim-glsl
-	url = https://github.com/tikhomirov/vim-glsl
