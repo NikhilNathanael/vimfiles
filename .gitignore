@@ -8,3 +8,4 @@ compiler/mingw64/
 tags
 My Packages/
 viminfo
+pack/Plugins/start/vim-glsl
