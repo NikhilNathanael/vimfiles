@@ -6,12 +6,21 @@ if !exists("g:rust_recommended_style")
 	let g:rust_recommended_style = 0
 endif
 
+" Settings with vim-lsp
+	if exists("g:lsp_loaded")
+		nnoremap <buffer>  <plug>(lsp-definition)
+	endif
+
 " Remaps and Abbreviations
 	" Map the required hotkeys
 		" Open curly braces 
-			inoremap <buffer> {<cr> {<cr>}<esc>O
-			inoremap <buffer> (<cr> (<cr>)<esc>O
-			inoremap <buffer> [<cr> [<cr>]<esc>O
+			inoremap <buffer> <nowait> {<cr> {<cr>}<esc>O
+		" Open parentheses
+			inoremap <buffer> <nowait> (<cr> (<cr>)<esc>O
+		" Open square brackets
+			inoremap <buffer> <nowait> [<cr> [<cr>]<esc>O
+		" println macro
+			inoreabbr <buffer> <nowait> println println!("{:?}", 
 
 
 
@@ -26,12 +35,12 @@ endif
 
 
 " Create custom highlighting for user defined variables, structures and functions
-	let s:dataTypes = ["int", "long", "double", "float", "struct", "void"]
-	let s:listOfStructureVariables = []
-	let s:listOfFunctionIdentifiers = []
-	function! s:UserDefinedIndentifierHighlighting () 
+	" let s:dataTypes = ["int", "long", "double", "float", "struct", "void"]
+	" let s:listOfStructureVariables = []
+	" let s:listOfFunctionIdentifiers = []
+	" function! s:UserDefinedIndentifierHighlighting () 
 				
-	endfunction
+	" endfunction
 
 
 " Compile and Execute Shortcuts

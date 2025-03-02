@@ -9,3 +9,4 @@ tags
 My Packages/
 viminfo
 pack/Plugins/start/vim-glsl
+lsp.log

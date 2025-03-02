@@ -82,3 +82,18 @@
 [submodule "pack/Plugins/start/vimwiki"]
 	path = pack/Plugins/start/vimwiki
 	url = https://github.com/vimwiki/vimwiki
+[submodule "pack/Plugins/start/YouCompleteMe"]
+	path = pack/Plugins/start/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe
+[submodule ".\\pack\\Vundle\\start\\vundle"]
+	path = .\\pack\\Vundle\\start\\vundle
+	url = https://github.com/VundleVim/Vundle.vim
+[submodule "pack/coc/start/coc.vim"]
+	path = pack/coc/start/coc.vim
+	url = https://github.com/neoclide/coc.nvim
+[submodule "pack/Plugins/start/vim-lsp"]
+	path = pack/Plugins/start/vim-lsp
+	url = https://github.com/prabirshrestha/vim-lsp
+[submodule ".\\pack\\Vundle\\start\\Vundle.vim"]
+	path = .\\pack\\Vundle\\start\\Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
