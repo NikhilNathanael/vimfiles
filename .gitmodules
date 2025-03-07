@@ -97,3 +97,6 @@
 [submodule ".\\pack\\Vundle\\start\\Vundle.vim"]
 	path = .\\pack\\Vundle\\start\\Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "pack/Plugins/start/wgsl.vim"]
+	path = pack/Plugins/start/wgsl.vim
+	url = https://github.com/DingDean/wgsl.vim
