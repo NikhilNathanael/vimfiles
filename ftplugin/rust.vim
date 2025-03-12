@@ -7,9 +7,9 @@ if !exists("g:rust_recommended_style")
 endif
 
 " Settings with vim-lsp
-	if exists("g:lsp_loaded")
-		nnoremap <buffer>  <plug>(lsp-definition)
-	endif
+	" if exists("g:lsp_loaded")
+	" 	nnoremap <buffer>  <plug>(lsp-definition)
+	" endif
 
 " Remaps and Abbreviations
 	" Map the required hotkeys
@@ -50,7 +50,7 @@ endif
 	" Compile hotkey is F8
 		nnoremap <buffer> <F8> :w <bar> make check <cr>
 	" Execute hotkey is F9
-		nnoremap <buffer> <F9> make run <cr>
+		nnoremap <buffer> <F9> :make run <cr>
 
 
 " Set Compiler
