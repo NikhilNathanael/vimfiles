@@ -22,6 +22,9 @@ endif
 		" println macro
 			inoreabbr <buffer> <nowait> println println!("{:?}", 
 
+	set makeprg=cargo
+	set errorformat=%.%#-->\ %f:%l:%c
+
 
 
 	" Snippets
@@ -45,9 +48,9 @@ endif
 
 " Compile and Execute Shortcuts
 	" Compile hotkey is F8
-		nnoremap <buffer> <F8> :w <bar> !cargo check <cr>
+		nnoremap <buffer> <F8> :w <bar> make check <cr>
 	" Execute hotkey is F9
-		nnoremap <buffer> <F9> :!cargo run <cr>
+		nnoremap <buffer> <F9> make run <cr>
 
 
 " Set Compiler

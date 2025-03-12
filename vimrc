@@ -8,18 +8,18 @@
 " For vim-lsp
 	" au! User lsp_setup
 	" if executable('rust-analyzer')
-	" 	au User lsp_setup call lsp#register_server({
-	" 		\ 'name'      : 'rust-analyzer',
-	" 		\ 'cmd'       : ['rust-analyzer'],
-	" 		\ 'allowlist' : ['rust'],
-	" 		\ 'initialization_options' : {
-	" 		\	'checkOnSave' : 'true',
-	" 		\	'diagnostics' : {
-	" 		\		'enable' : 'true',
-	" 		\ 		'warningsAsHint' : ['dead_code','unused_variables'],
-	" 		\	}
-	" 		\ }
-	" 		\ }) 
+		au User lsp_setup call lsp#register_server({
+			\ 'name'      : 'rust-analyzer',
+			\ 'cmd'       : ['rust-analyzer'],
+			\ 'allowlist' : ['rust'],
+			\ 'initialization_options' : {
+			\	'checkOnSave' : 'true',
+			\	'diagnostics' : {
+			\		'enable' : 'true',
+			\ 		'warningsAsHint' : ['dead_code','unused_variables'],
+			\	}
+			\ }
+			\ }) 
 		" au User lsp_setup echo "lsp_setup beginning" " Testing
 	endif
 	" if executable('jdtls')
@@ -245,6 +245,13 @@
 		" Vertical split using find
 			cnoreabbr vsf vertical sfind
 
+	" Quickfix list manipulation
+		nnoremap co :copen<cr>
+		nnoremap cn :cnext<cr>
+		nnoremap cp :cprev<cr>
+		
+		" collision with system copy plugin needs to be fixed
+		nnoremap gcp <Plug>SystemCopy
 
 " Skeleton file creation
 	" Autocmd
