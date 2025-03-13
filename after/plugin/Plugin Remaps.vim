@@ -9,7 +9,6 @@
 		nunmap gcc
 		xmap cm <Plug>Commentary
 		nmap cm <Plug>Commentary
-		omap cm <Plug>Commentary
 		nmap cmm <Plug>CommentaryLine
 		nmap cmu <Plug>Commentary<Plug>Commentary
 	endif

@@ -60,7 +60,7 @@ endif
 
 	" Matches lines like this which are present at every error and warning site
 	" |   --> src\main.rs:89:4
-	setlocal errorformat+=%C\ \ -->\ %f:%l:%c
+	setlocal errorformat+=%C%\\s%#-->\ %f:%l:%c
 
 	" Exclude any empty lines (makes the errors easier to read)
 	setlocal errorformat+=%-G%\\s%#
