@@ -51,8 +51,8 @@ endif
 	" Execute hotkey is F9
 		nnoremap <buffer> <F9> :make run <cr>
 
-
-" Set Compiler
+" add command for tag file creation
+	command MakeTags !rusty-tags vi
 
 " Comment String for comment plugin
 	setlocal commentstring=//%s
