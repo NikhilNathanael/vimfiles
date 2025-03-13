@@ -22,11 +22,6 @@ endif
 		" println macro
 			inoreabbr <buffer> <nowait> println println!("{:?}", 
 
-	set makeprg=cargo
-	set errorformat=%.%#-->\ %f:%l:%c
-
-
-
 	" Snippets
 		" For loop 
 		" Printf 
@@ -35,6 +30,10 @@ endif
 	" Searches
 
 	" Two consecutive spaces in insert mode moves cursor to next tag
+
+" Compiler quickfix list integration 
+	set makeprg=cargo
+	set errorformat=%.%#-->\ %f:%l:%c
 
 
 " Create custom highlighting for user defined variables, structures and functions

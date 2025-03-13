@@ -127,6 +127,7 @@
 		set shellslash							" Uses forward slash (/) instead of backslash (\) in file paths
 		set guicursor=n-v-c:block,o:hor50,i-ci:block,r-cr:hor30,sm:block
 		set encoding=utf-8
+		set wildmenu
 
 		" Undo and Backup files
 				set backup								" Enable backup file
@@ -141,6 +142,17 @@
 		" WildIngore files
 			set wildignore+=*.exe,*.*~
 			set wildignore+=**/third_party/**
+
+			" Vim built in c compiler
+				set wildignore+=~\\vimfiles\\compiler\\mingw64**
+			" rust build artefacts in "/Vim Projects/" directory
+				set wildignore+=~\\Vim\\\ Projects\\*\\*\\target**
+				
+			" rust build artefacts
+				set wildignore+=**\\target\\debug\\**
+				set wildignore+=**\\target\\release\\**
+				set wildignore+=**\\target\\doc\\**
+
 		" Allow backspacing over everything in insert mode.
 			set backspace=indent,eol,start
 
@@ -155,15 +167,7 @@
 	" Path variable
 		set path+=
 		set path+=.\
-		set path+=~\vimfiles\**
-		set path+=~\vimfiles\ftplugin\**
-		set path+=~\vimfiles\pack\**
-		set path+=~\Projects\\**
 		set path+=C:\Program\\\ Files\\\ (x86)\Steam\steamapps\common\Kerbal\\\ Space\\\ Program\Ships\Script\\**
-		set path+=~\Documents\PSG\\\ Documents\Class\\\ Documents\**
-		set path+=~\Documents\Personal\\\ Documents\**
-		set wildignore+=~\\vimfiles\\compiler\\mingw64**
-		set wildignore+=~\\Vim\\\ Projects\\*\\*\\target**
 	
 	" Move viminfo file from $HOME to $HOME/vimfiles/vimfiles
 		set viminfo+='1000,n~/vimfiles/viminfo
@@ -250,7 +254,8 @@
 		nnoremap cn :cnext<cr>
 		nnoremap cp :cprev<cr>
 		
-		" collision with system copy plugin needs to be fixed
+		" collision with system copy plugin needs to be fixed 
+		" (uses 'cp' by default)
 		nnoremap gcp <Plug>SystemCopy
 
 " Skeleton file creation
