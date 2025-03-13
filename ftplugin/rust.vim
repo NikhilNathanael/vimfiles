@@ -33,8 +33,52 @@ endif
 
 " Compiler quickfix list integration 
 	set makeprg=cargo
-	set errorformat=%.%#-->\ %f:%l:%c
+	" Note: `| ` at the beginning of the example lines indicates the start of
+	" the line in the actual output, it is not part of the actual output
 
+	" excludes line at the bottom of the compiler output which lists the
+	" number of warnings and errors
+	" | warning: `dynamodb_test` (bin "dynamodb_test") generated 3 warnings
+	" | error: could not compile `dynamodb_test` (bin "dynamodb_test") due to 1 previous error
+	setlocal errorformat=%-Gerror:\ could\ not\ compile%m
+	setlocal errorformat+=%-Gwarning:%.%#generated\ %n\ warnings%\\?%.%#
+
+	" Warning format of rust
+	" | warning: function `create_attr_def` is never used
+	" |   --> src\main.rs:89:4
+	setlocal errorformat+=%W%tarning:%m
+
+	" Semantic error format of rust (notice the error code (E0443))
+	" | error[E0433]: failed to resolve: use of undeclared crate or module `sAttributeDefinition`
+	" |   --> src\main.rs:90:2
+	setlocal errorformat+=%E%trror[E%n]:%m
+
+	" Syntax error format of rust (notice the missing error code)
+	" | error: missing `fn` for function definition
+	" |   --> src\main.rs:98:1	
+	setlocal errorformat+=%E%trror:%m
+
+	" Matches lines like this which are present at every error and warning site
+	" |   --> src\main.rs:89:4
+	setlocal errorformat+=%C\ \ -->\ %f:%l:%c
+
+	" Exclude any empty lines (makes the errors easier to read)
+	setlocal errorformat+=%-G%\\s%#
+	
+	" The rust compiler emits an empty line after every error or warning.
+	" The two lines below will include all lines in the output until the empty
+	" line is reached 
+	" It has been disabled because it makes the error less readable
+	" setlocal errorformat+=%C%m
+	" setlocal errorformat+=%Z%\\s%#
+	
+	" only include matching lines 
+	" this has been disabled because it removes too much information from the
+	" output
+	" setlocal errorformat+=%-G%.%#
+
+	" TODO: Some types of errors and warnings in rust have extra help text.
+	" these need to be added to the quickfix output
 
 " Create custom highlighting for user defined variables, structures and functions
 	" let s:dataTypes = ["int", "long", "double", "float", "struct", "void"]
