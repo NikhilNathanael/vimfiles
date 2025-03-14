@@ -58,9 +58,18 @@ endif
 	" |   --> src\main.rs:98:1	
 	setlocal errorformat+=%E%trror:%m
 
+
 	" Matches lines like this which are present at every error and warning site
 	" |   --> src\main.rs:89:4
-	setlocal errorformat+=%C%\\s%#-->\ %f:%l:%c
+	setlocal errorformat+=%Z%\\s%#-->\ %f:%l:%c
+	
+	" if any of the previous lines are not enough to contain the entire error
+	" or warning, it spills over to the next line which must always be
+	" included
+	" Note: THIS HAS BEEN COMMITTED WITHOUT BEING VERIFIED TO WORK YET.
+	" IF YOU COME BACK TO THIS, PLEASE REMOVE THIS NOTE IF IT WORKS OR FIX IT
+	" IF IT DOESN'T
+	setlocal errorformat+=%C%m
 
 	" Exclude any empty lines (makes the errors easier to read)
 	setlocal errorformat+=%-G%\\s%#
@@ -79,6 +88,8 @@ endif
 
 	" TODO: Some types of errors and warnings in rust have extra help text.
 	" these need to be added to the quickfix output
+	" TODO: Some errors and warnings can be multiple lines long. These are
+	" ingored by the current error format. 
 
 " Create custom highlighting for user defined variables, structures and functions
 	" let s:dataTypes = ["int", "long", "double", "float", "struct", "void"]
