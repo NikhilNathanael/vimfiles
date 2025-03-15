@@ -135,6 +135,7 @@
 		set guicursor=n-v-c:block,o:hor50,i-ci:block,r-cr:hor30,sm:block
 		set encoding=utf-8
 		set wildmenu
+		set nowrap
 
 		" Undo and Backup files
 				set backup								" Enable backup file
