@@ -102,7 +102,7 @@ endif
 
 " Compile and Execute Shortcuts
 	" Compile hotkey is F8
-		nnoremap <buffer> <F8> :w <bar> make check <cr>
+		nnoremap <buffer> <F8> :w <bar> make! check <cr>
 	" Execute hotkey is F9
 		nnoremap <buffer> <F9> :!cargo run <cr>
 
