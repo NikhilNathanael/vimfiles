@@ -8,7 +8,7 @@ endif
 
 " Settings with vim-lsp
 	" if exists("g:lsp_loaded")
-	" 	nnoremap <buffer>  <plug>(lsp-definition)
+		nnoremap <buffer>  <plug>(lsp-definition)
 	" endif
 
 " Remaps and Abbreviations

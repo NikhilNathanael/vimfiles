@@ -7,6 +7,13 @@
 
 " For vim-lsp
 	" au! User lsp_setup
+	
+	" Removes Ugly virtual text for diagnostics and replaces it with a
+	" floating window
+	let g:lsp_diagnostics_virtual_text_enabled=0
+
+	let g:lsp_diagnostics_float_cursor=1
+
 	" if executable('rust-analyzer')
 		au User lsp_setup call lsp#register_server({
 			\ 'name'      : 'rust-analyzer',
@@ -115,7 +122,7 @@
 		set number								" Enables line numbering for current line
 		set relativenumber						" Enables relative line numbering for all other lines
 		command VimRC :tabedit ~\vimfiles\vimrc	" Defines a command to quickly open ~\_vimrc is vsplit window
-		colorscheme default						" Modified version of Darkblue
+		colorscheme custom  					" Modified version of Darkblue
 		set lazyredraw							" Does not redraw the screen in the middle of macros and commands
 		set shell=powershell.exe				" Changes the shell from the default cmd.exe to powershell.exe
 		set backspace=indent,eol,start			" Allow backspacing over everything in insert mode.
