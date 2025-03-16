@@ -43,10 +43,13 @@ endif
 	setlocal errorformat=%-Gerror:\ could\ not\ compile%m
 	setlocal errorformat+=%-Gwarning:%.%#generated\ %n\ warnings%\\?%.%#
 
-	" Warning format of rust
+	" This has been disabled because warnings are annoying in the quickfix
+	" output. If warnings are needed, they can be accessed by directly using 
+	" !cargo check
+	" Warning format of rust 
 	" | warning: function `create_attr_def` is never used
 	" |   --> src\main.rs:89:4
-	setlocal errorformat+=%W%tarning:%m
+	" setlocal errorformat+=%W%tarning:%m
 
 	" Semantic error format of rust (notice the error code (E0443))
 	" | error[E0433]: failed to resolve: use of undeclared crate or module `sAttributeDefinition`
