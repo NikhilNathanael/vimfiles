@@ -257,6 +257,9 @@
 		" Vertical split using find
 			cnoreabbr vsf vertical sfind
 
+		"  in visual mode does not delete
+			vunmap 
+
 	" Quickfix list manipulation
 		nnoremap co :copen<cr>
 		nnoremap cn :cnext<cr>
