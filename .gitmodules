@@ -100,3 +100,6 @@
 [submodule "pack/Plugins/start/wgsl.vim"]
 	path = pack/Plugins/start/wgsl.vim
 	url = https://github.com/DingDean/wgsl.vim
+[submodule "pack/My scripts/start/vim-projects"]
+	path = pack/My scripts/start/vim-projects
+	url = https://github.com/NikhilNathanael/vim-projects
