@@ -33,6 +33,7 @@ endif
 
 " Compiler quickfix list integration 
 	set makeprg=cargo
+	setlocal errorformat=\ 
 	" Note: `| ` at the beginning of the example lines indicates the start of
 	" the line in the actual output, it is not part of the actual output
 
@@ -40,7 +41,7 @@ endif
 	" number of warnings and errors
 	" | warning: `dynamodb_test` (bin "dynamodb_test") generated 3 warnings
 	" | error: could not compile `dynamodb_test` (bin "dynamodb_test") due to 1 previous error
-	setlocal errorformat=%-Gerror:\ could\ not\ compile%m
+	setlocal errorformat+=%-Gerror:\ could\ not\ compile%m
 	setlocal errorformat+=%-Gwarning:%.%#generated\ %n\ warnings%\\?%.%#
 
 	" This has been disabled because warnings are annoying in the quickfix
