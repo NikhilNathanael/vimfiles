@@ -14,7 +14,7 @@ vim9script
 	# Matches an error line like below, this is a sematic error
 	#./src/main.cpp:23:2: error: 'fn' was not declared in this scope
 	#  fn a = test_fn;
-	# setlocal errorformat+=%f:%l:%c:\ %trror:\ %m
+	setlocal errorformat+=%f:%l:%c:\ %trror:\ %m
 
 # Compile and Execute Shortcuts
 	# Compile hotkey is F8
