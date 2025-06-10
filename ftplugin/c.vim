@@ -9,10 +9,10 @@ vim9script
 	# Matches an error line like below, this is a sematic error
 	#./src/main.cpp:23:2: error: 'fn' was not declared in this scope
 	#  fn a = test_fn;
-	setlocal errorformat=\ 
+	# setlocal errorformat=\ 
 	# Sometimes mingw32-make clobbers the filename so it has to be taken into
 	# account
-	setlocal errorformat+=mingw32-make.exe\ :\ %f:%l:%c:\ %trror:\ %m
+	setlocal errorformat=mingw32-make.exe\ :\ %f:%l:%c:\ %trror:\ %m
 	setlocal errorformat+=%f:%l:%c:\ %trror:\ %m
 
 # Compile and Execute Shortcuts
