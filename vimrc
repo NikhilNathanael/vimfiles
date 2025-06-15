@@ -14,7 +14,7 @@
 
 	let g:lsp_diagnostics_float_cursor=1
 
-	" if executable('rust-analyzer')
+	if executable('rust-analyzer')
 		au User lsp_setup call lsp#register_server({
 			\ 'name'      : 'rust-analyzer',
 			\ 'cmd'       : ['rust-analyzer'],
