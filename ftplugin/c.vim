@@ -17,10 +17,12 @@ vim9script
 	setlocal errorformat+=%f:%l:%c:\ %trror:\ %m
 
 # Compile and Execute Shortcuts
-	# Compile hotkey is F8
-		nnoremap <buffer> <F8> :make build<cr>
-	# Execute hotkey is F9
+	# Check hotkey is F8
+		nnoremap <buffer> <F8> :make check<cr>
+	# Execute hotkey is F10
 		nnoremap <buffer> <F9> :!mingw32-make run<cr>
+	# Compile hotkey is F10
+		nnoremap <buffer> <F10> :make build<cr>
 
 # Comment String for comment plugin
 	setlocal commentstring=//%s
