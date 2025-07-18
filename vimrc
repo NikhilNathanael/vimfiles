@@ -148,7 +148,10 @@
 				set undodir=~\vimfiles\.vimundo\
 
 		" WildIngore files
-			set wildignore+=*.exe,*.*~
+			" TODO: There might have been a reason exes were ignored,
+			" uncomment this line if you find it again and document it here
+			" set wildignore+=*.exe
+			set wildignore+=*.*~
 			set wildignore+=**/third_party/**
 
 			" Vim built in c compiler
