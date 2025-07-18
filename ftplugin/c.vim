@@ -20,9 +20,9 @@ vim9script
 	# Check hotkey is F8
 		nnoremap <buffer> <F8> :make check<cr>
 	# Execute hotkey is F10
-		nnoremap <buffer> <F9> :!mingw32-make run<cr>
+		nnoremap <buffer> <F9> :!mingw32-make run -j8<cr>
 	# Compile hotkey is F10
-		nnoremap <buffer> <F10> :make build<cr>
+		nnoremap <buffer> <F10> :make build -j8<cr>
 
 # Comment String for comment plugin
 	setlocal commentstring=//%s
