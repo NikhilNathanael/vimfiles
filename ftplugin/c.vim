@@ -1,4 +1,5 @@
 vim9script
+set nocindent
 # Remaps and Abbreviations
 	# Map the required hotkeys
 		inoremap <buffer> {<cr> {<cr>}<esc>O
