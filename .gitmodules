@@ -89,3 +89,6 @@
 [submodule "pack/My scripts/start/vim-projects"]
 	path = pack/My scripts/start/vim-projects
 	url = https://github.com/NikhilNathanael/vim-projects
+[submodule "pack/Plugins/start/kotlin-vim"]
+	path = pack/Plugins/start/kotlin-vim
+	url = https://github.com/udalov/kotlin-vim
