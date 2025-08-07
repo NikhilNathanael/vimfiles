@@ -21,7 +21,7 @@ setlocal path+=C:\\Program\\\ Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev
 
 # Compile and Execute Shortcuts
 	# Check hotkey is F8
-		nnoremap <buffer> <F8> :make check<cr>
+		nnoremap <buffer> <F8> :make check -j8<cr>
 	# Execute hotkey is F10
 		nnoremap <buffer> <F9> :!mingw32-make run -j8<cr>
 	# Compile hotkey is F10
