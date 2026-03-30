@@ -18,8 +18,10 @@ setlocal shiftwidth=4
 	setlocal makeprg=grugc
 
 # Compile and Execute Shortcuts
-	# Check hotkey is F8
+	# F8 checks file and puts the output in quickfix list
 		nnoremap <buffer> <F8> :make %<cr>
+	# F9 checks file and puts the output in stdout
+		nnoremap <buffer> <F9> :grugc %<cr>
 	# Cannot execute or compile from the command line
 
 # Comment String for comment plugin
