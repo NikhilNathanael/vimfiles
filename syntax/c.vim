@@ -507,7 +507,9 @@ syn match 	cUDVariable	"\v%(\d\a*)@<!\h\w*" " Words that don't begin with a digi
 hi def link cUDVariable 	UDVariable
 
 syn match 	cStructureVariable	"\v(struct)@<=\s*\h\w*" " Words that don't begin with a digit and are preceded by 'struct'
+syn match 	cUnionVariable		"\v(union)@<=\s*\h\w*" " Words that don't begin with a digit and are preceded by 'struct'
 hi def link cStructureVariable	StructureVariable
+hi def link cUnionVariable	StructureVariable
 
 " User defined functions
 syn match 	cUDFunction	"\v%(\d\a*)@<!\h\w*(\s*\()@=" " Words that don't begin with a digit and a followed by '('
