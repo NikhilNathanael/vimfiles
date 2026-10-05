@@ -18,6 +18,10 @@ setlocal path+=C:\\Program\\\ Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev
 	#./src/main.cpp:23:2: error: 'fn' was not declared in this scope
 	#  fn a = test_fn;
 	setlocal errorformat+=%f:%l:%c:\ %trror:\ %m
+	# C:\Users\nikhi\Projects\grug\grug-rs\gruggers\src\grug-tests\tests.c(2589,2): error C2065: 'game_fn_game_fn_vec_number_push_call_count': undeclared identifier [C:\Users\nikhi\Projects\grug\grug-rs\gruggers\src\grug-tests\build\tests.vcxproj]
+	setlocal errorformat+=\ %f(%l\\,%c):\ %trror\ C%n:\ %m[%.%#]
+	# C:\Users\nikhi\Projects\grug\grug-rs\gruggers\src\grug-tests\tests.h(268,17): warning C4013: 'realloc' undefined; assuming extern returning int [C:\Users\nikhi\Projects\grug\grug-rs\gruggers\src\grug-tests\build\smoketest.vcxproj]
+	setlocal errorformat+=\ %f(%l\\,%c):\ %tarning\ C%n:\ %m[%.%#]
 
 # Compile and Execute Shortcuts
 	# Check hotkey is F8

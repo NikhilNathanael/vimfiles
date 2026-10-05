@@ -92,3 +92,6 @@
 [submodule "pack/Plugins/start/kotlin-vim"]
 	path = pack/Plugins/start/kotlin-vim
 	url = https://github.com/udalov/kotlin-vim
+[submodule "pack/My scripts/start/vim-column"]
+	path = pack/My scripts/start/vim-column
+	url = https://github.com/NikhilNathanael/vim-column-align
